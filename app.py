@@ -25,12 +25,17 @@ options = [
     "Listar todas las Instituciones con su País de origen y nombre",
     "Contar cuántas Instituciones hay por País",
     "Listar todos los Países definidos",
-    "Instituciones de un País concreto"
+    "Instituciones de un País concreto",
+    "Listar para cada Paper sus 5 similares concatenados",
+    "Contar cuántas relaciones de similitud tiene cada Paper",
+    "Detectar Papers con menos de 5 similares",
+    "Extraer los similares de un Paper concreto",
+    "Validar que Papers similares comparten al menos un Topic"
 ]
 selected_query = st.selectbox("Selecciona la consulta que quieres ejecutar:", options)
 
 # Input si selecciona "Autores de un paper específico"
-if selected_query == "Autores de un paper específico" or selected_query == "Listar todos los Topics de un Paper":
+if selected_query == "Autores de un paper específico" or selected_query == "Listar todos los Topics de un Paper" or selected_query == "Extraer los similares de un Paper concreto":
     doi_input = st.text_input("Introduce el identificador del paper (por ejemplo: 10.1007_s11036-021-01777-7)").replace("/", "_")
 elif selected_query == "Buscar Papers que pertenecen al Topic":
     label_input = st.text_input("Introduce el topic que quieras buscar")
@@ -244,6 +249,86 @@ if st.button("Ejecutar consulta"):
         }}
         ORDER BY ?instName
         """
+    elif selected_query == "Listar para cada Paper sus 5 similares concatenados":
+        query = """
+        PREFIX ex:     <https://grupo6.org/ontology#>
+        PREFIX paper:  <https://grupo6.org/paper/>
+        PREFIX author: <https://grupo6.org/author/>
+        PREFIX topic:  <https://grupo6.org/topic/>
+        PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+        PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        SELECT ?paper 
+        (GROUP_CONCAT(STRAFTER(STR(?sim), "paper/"); SEPARATOR=";") AS ?similares) 
+        WHERE {
+        ?paper rdf:type ex:Paper ;
+                ex:similarA ?sim .
+        }
+        GROUP BY ?paper
+        """
+    elif selected_query == "Contar cuántas relaciones de similitud tiene cada Paper":
+        query = """
+        PREFIX ex:     <https://grupo6.org/ontology#>
+        PREFIX paper:  <https://grupo6.org/paper/>
+        PREFIX author: <https://grupo6.org/author/>
+        PREFIX topic:  <https://grupo6.org/topic/>
+        PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+        PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        SELECT ?paper (COUNT(?sim) AS ?numero) WHERE {
+        ?paper rdf:type ex:Paper ;
+                ex:similarA ?sim .
+        }
+        GROUP BY ?paper
+        ORDER BY DESC(?numero)
+        """
+    elif selected_query == "Detectar Papers con menos de 5 similares":
+        query = """
+        PREFIX ex:     <https://grupo6.org/ontology#>
+        PREFIX paper:  <https://grupo6.org/paper/>
+        PREFIX author: <https://grupo6.org/author/>
+        PREFIX topic:  <https://grupo6.org/topic/>
+        PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+        PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        SELECT ?paper (COUNT(?sim) AS ?numero) WHERE {
+        ?paper rdf:type ex:Paper ;
+                ex:similarA ?sim .
+        }
+        GROUP BY ?paper
+        HAVING(?numero < 5)
+        """
+    elif selected_query == "Extraer los similares de un Paper concreto":
+        if not doi_input:
+            st.warning("Por favor, introduce el identificador del paper.")
+            st.stop()
+
+        query = f"""
+        PREFIX ex: <https://grupo6.org/ontology#>
+        PREFIX paper: <https://grupo6.org/paper/>
+
+        SELECT ?sim WHERE {{
+            paper:{doi_input} ex:similarA ?sim .
+        }}
+        """
+    elif selected_query == "Validar que Papers similares comparten al menos un Topic":
+        query = """
+        PREFIX ex:     <https://grupo6.org/ontology#>
+        PREFIX paper:  <https://grupo6.org/paper/>
+        PREFIX author: <https://grupo6.org/author/>
+        PREFIX topic:  <https://grupo6.org/topic/>
+        PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+        PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        SELECT ?paper ?sim (GROUP_CONCAT(?label; separator=", ") AS ?topics_compartidos) WHERE {
+        ?paper ex:similarA ?sim ;
+                ex:perteneceA ?topic .
+        ?sim ex:perteneceA ?topic .
+        ?topic rdfs:label ?label .
+        }
+        GROUP BY ?paper ?sim
+        """
+
 
 
     results = run_query(query)
@@ -262,3 +347,4 @@ if st.button("Ejecutar consulta"):
             st.warning("No se encontraron resultados.")
     else:
         st.error("Error en la respuesta del endpoint.")
+
