@@ -1,0 +1,153 @@
+@prefix dc: http://purl.org/dc/elements/1.1/ .
+@prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# .
+@prefix rdfs: http://www.w3.org/2000/01/rdf-schema# .
+@prefix owl: http://www.w3.org/2002/07/owl# .
+@prefix xsd: http://www.w3.org/2001/XMLSchema# .
+
+@prefix mod: https://w3id.org/mod# .
+@prefix schema: http://schema.org/ .
+
+@prefix ex: https://grupo6.org/ontology# .
+@prefix paper: https://grupo6.org/paper/ .
+@prefix author: https://grupo6.org/author/ .
+@prefix topic: https://grupo6.org/topic/ .
+@prefix medio: https://grupo6.org/medio/ .
+@prefix ror: https://ror.org/ .
+@prefix oa: https://openalex.org/ .
+
+https://grupo6.org/ontology a owl:Ontology ;
+dc:creator "Izan Navarro Nicolás",
+"Javier Vals López",
+"Miguel Medina Domínguez" ;
+dc:title "Grupo6 Ontology" ;
+owl:versionInfo "0.0.1" ;
+mod:createdWith https://chowlk.linkeddata.es/ .
+
+
+
+ex:doi a owl:DatatypeProperty ;
+rdfs:label "DOI" ;
+rdfs:domain ex:Paper ;
+rdfs:range xsd:string .
+
+ex:titulo a owl:DatatypeProperty ;
+rdfs:label "Título" ;
+rdfs:domain ex:Paper ;
+rdfs:range xsd:string .
+
+ex:fechaPublicacion a owl:DatatypeProperty ;
+rdfs:label "Fecha de publicación" ;
+rdfs:domain ex:Paper ;
+rdfs:range xsd:date .
+
+ex:numeroCitas a owl:DatatypeProperty ;
+rdfs:label "Número de citas" ;
+rdfs:domain ex:Paper ;
+rdfs:range xsd:integer .
+
+ex:palabrasTopic a owl:DatatypeProperty ;
+rdfs:label "Palabras clave de topic" ;
+rdfs:domain ex:Topic ;
+rdfs:range xsd:string .
+
+ex:nombreAutor a owl:DatatypeProperty ;
+rdfs:label "Nombre de autor" ;
+rdfs:domain ex:Author ;
+rdfs:range xsd:string .
+
+ex:fechaNacimiento a owl:DatatypeProperty ;
+rdfs:label "Fecha de nacimiento" ;
+rdfs:domain ex:Author ;
+rdfs:range xsd:date .
+
+ex:edad a owl:DatatypeProperty ;
+rdfs:label "Edad" ;
+rdfs:domain ex:Author ;
+rdfs:range xsd:integer .
+
+ex:nombreMedio a owl:DatatypeProperty ;
+rdfs:label "Nombre de medio" ;
+rdfs:domain ex:MedioDePublicacion ;
+rdfs:range xsd:string .
+
+ex:fechaMedio a owl:DatatypeProperty ;
+rdfs:label "Fecha de medio" ;
+rdfs:domain ex:MedioDePublicacion ;
+rdfs:range xsd:date .
+
+ex:tipoMedio a owl:DatatypeProperty ;
+rdfs:label "Tipo de medio" ;
+rdfs:domain ex:MedioDePublicacion ;
+rdfs:range xsd:string .
+
+ex:nombreInstitucion a owl:DatatypeProperty ;
+rdfs:label "Nombre de institución" ;
+rdfs:domain ex:Institution ;
+rdfs:range xsd:string .
+
+ex:nombrePais a owl:DatatypeProperty ;
+rdfs:label "Nombre de país" ;
+rdfs:domain ex:Country ;
+rdfs:range xsd:string .
+
+Object Properties
+
+ex:publicadoEn a owl:ObjectProperty ;
+rdfs:label "publicado en" ;
+rdfs:domain ex:Paper ;
+rdfs:range ex:MedioDePublicacion .
+
+ex:pertenceA a owl:ObjectProperty ;
+rdfs:label "pertenece a" ;
+rdfs:domain ex:Paper ;
+rdfs:range ex:Topic .
+
+ex:paperEscritos a owl:ObjectProperty ;
+rdfs:label "paper escritos" ;
+rdfs:domain ex:Author ;
+rdfs:range ex:Paper .
+
+ex:trabajaEn a owl:ObjectProperty ;
+rdfs:label "trabaja en" ;
+rdfs:domain ex:Author ;
+rdfs:range ror:Institution .
+
+ex:agradecimientos a owl:ObjectProperty ;
+rdfs:label "agradecimientos" ;
+rdfs:domain ex:Paper ;
+rdfs:range ror:Institution .
+
+ex:origenEn a owl:ObjectProperty ;
+rdfs:label "origen en" ;
+rdfs:domain ror:Institution ;
+rdfs:range ex:Country .
+
+ex:seSituaEn a owl:ObjectProperty ;
+rdfs:label "se sitúa en" ;
+rdfs:domain ex:MedioDePublicacion ;
+rdfs:range ex:Country .
+
+ex:similarA a owl:ObjectProperty ;
+rdfs:label "similar a" ;
+rdfs:domain ex:Paper ;
+rdfs:range ex:Paper .
+
+Classes
+
+ex:Paper a owl:Class ;
+rdfs:label "Paper" .
+
+ex:Author a owl:Class ;
+rdfs:label "Autor" .
+
+ex:Topic a owl:Class ;
+rdfs:label "Topic" .
+
+ex:MedioDePublicacion a owl:Class ;
+rdfs:label "MedioDePublicacion" .
+
+ror:Institution a owl:Class ;
+rdfs:label "Institution" .
+
+ex:Country a owl:Class ;
+rdfs:label "Pais" .
