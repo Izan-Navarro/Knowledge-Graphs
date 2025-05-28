@@ -26,11 +26,12 @@ options = [
     "Contar cuántas Instituciones hay por País",
     "Listar todos los Países definidos",
     "Instituciones de un País concreto",
-    "Listar para cada Paper sus 5 similares concatenados",
+    "Listar papers con similares",
     "Contar cuántas relaciones de similitud tiene cada Paper",
-    "Detectar Papers con menos de 5 similares",
+    "Detectar papers sin similares",
     "Extraer los similares de un Paper concreto",
-    "Validar que Papers similares comparten al menos un Topic"
+    "Validar que Papers similares comparten al menos un Topic",
+    "Papers entre el umbral de similares"
 ]
 selected_query = st.selectbox("Selecciona la consulta que quieres ejecutar:", options)
 
@@ -43,6 +44,9 @@ elif selected_query == "Contar cuántos Autores tiene cada Paper":
     num_input = st.text_input("Introduce el numero máximo de autores")
 elif selected_query == "Instituciones de un País concreto":
     country_input = st.text_input("Introduce el pais").replace(" ", "_")
+elif selected_query == "Papers entre el umbral de similares":
+    num_min = st.text_input("Introduce el minimo del umbral")
+    num_max = st.text_input("Introduce el máximo del umbral")
 
 
 if st.button("Ejecutar consulta"):
@@ -249,7 +253,7 @@ if st.button("Ejecutar consulta"):
         }}
         ORDER BY ?instName
         """
-    elif selected_query == "Listar para cada Paper sus 5 similares concatenados":
+    elif selected_query == "Listar papers con similares":
         query = """
         PREFIX ex:     <https://grupo6.org/ontology#>
         PREFIX paper:  <https://grupo6.org/paper/>
@@ -258,13 +262,12 @@ if st.button("Ejecutar consulta"):
         PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
         PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-        SELECT ?paper 
-        (GROUP_CONCAT(STRAFTER(STR(?sim), "paper/"); SEPARATOR=";") AS ?similares) 
-        WHERE {
-        ?paper rdf:type ex:Paper ;
-                ex:similarA ?sim .
+        SELECT ?p ?doi_p ?sim ?doi_sim WHERE {
+        ?p  ex:similarA ?sim ;
+            ex:doi       ?doi_p .
+        ?sim ex:doi     ?doi_sim .
         }
-        GROUP BY ?paper
+        ORDER BY ?doi_p ?doi_sim
         """
     elif selected_query == "Contar cuántas relaciones de similitud tiene cada Paper":
         query = """
@@ -275,14 +278,15 @@ if st.button("Ejecutar consulta"):
         PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
         PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-        SELECT ?paper (COUNT(?sim) AS ?numero) WHERE {
-        ?paper rdf:type ex:Paper ;
-                ex:similarA ?sim .
+        SELECT ?p ?doi_p (COUNT(?sim) AS ?n_similares) WHERE {
+        ?p   rdf:type   ex:Paper ;
+            ex:doi     ?doi_p ;
+            ex:similarA ?sim .
         }
-        GROUP BY ?paper
-        ORDER BY DESC(?numero)
+        GROUP BY ?p ?doi_p
+        ORDER BY DESC(?n_similares)
         """
-    elif selected_query == "Detectar Papers con menos de 5 similares":
+    elif selected_query == "Detectar papers sin similares":
         query = """
         PREFIX ex:     <https://grupo6.org/ontology#>
         PREFIX paper:  <https://grupo6.org/paper/>
@@ -291,12 +295,11 @@ if st.button("Ejecutar consulta"):
         PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
         PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-        SELECT ?paper (COUNT(?sim) AS ?numero) WHERE {
-        ?paper rdf:type ex:Paper ;
-                ex:similarA ?sim .
+        SELECT ?p ?doi_p WHERE {
+        ?p rdf:type ex:Paper ;
+            ex:doi   ?doi_p .
+        FILTER NOT EXISTS { ?p ex:similarA ?anything }
         }
-        GROUP BY ?paper
-        HAVING(?numero < 5)
         """
     elif selected_query == "Extraer los similares de un Paper concreto":
         if not doi_input:
@@ -309,7 +312,9 @@ if st.button("Ejecutar consulta"):
 
         SELECT ?sim WHERE {{
             paper:{doi_input} ex:similarA ?sim .
+            ?sim ex:doi ?doi_sim .
         }}
+        ORDER BY ?doi_sim
         """
     elif selected_query == "Validar que Papers similares comparten al menos un Topic":
         query = """
@@ -328,6 +333,30 @@ if st.button("Ejecutar consulta"):
         }
         GROUP BY ?paper ?sim
         """
+    elif selected_query == "Papers entre el umbral de similares":
+        if not num_min or not num_max:
+            st.warning("Por favor, introduce el umbral.")
+            st.stop()
+
+        query = f"""
+        PREFIX ex:     <https://grupo6.org/ontology#>
+        PREFIX paper:  <https://grupo6.org/paper/>
+        PREFIX author: <https://grupo6.org/author/>
+        PREFIX topic:  <https://grupo6.org/topic/>
+        PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+        PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+        SELECT ?paper ?doi (COUNT(?sim) AS ?numSimilares) WHERE {{
+        ?paper rdf:type      ex:Paper ;
+                ex:doi        ?doi ;
+                ex:similarA   ?sim .
+        }}
+        GROUP BY ?paper ?doi
+        HAVING (?numSimilares >= {int(num_min)} && ?numSimilares <= {int(num_max)})
+        ORDER BY DESC(?numSimilares)
+        """
+
 
 
 
