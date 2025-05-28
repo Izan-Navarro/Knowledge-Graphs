@@ -14,14 +14,14 @@ INSTRUCCIONES PARA LEVANTAR EL ENTORNO Y EJECUTAR LA APP
    - Crea un nuevo dataset (base de datos) con el nombre que prefieras.
    - Carga el archivo .ttl (Turtle) que contiene tus datos RDF en ese dataset.
 
-3. Descargar e iniciar la aplicación Streamlit:
+3. Descargar dependencias e iniciar la aplicación Streamlit:
 
    - Abre otra terminal.
      
-   - Instala la libreria streamlit
+   - Instala la libreria streamlit y sparqlwrapper
   
    ```bash
-     pip install streamlit
+     pip install streamlit sparqlwrapper
    ```
      
    - Ejecuta el siguiente comando, reemplazando "ruta al archivo de la app" por la ruta completa donde esté tu archivo app.py:
