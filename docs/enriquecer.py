@@ -83,7 +83,7 @@ df['topic_label'] = [
 df.to_csv(OUTPUT_TOPICS, index=False, encoding='utf-8')
 print(f"Topic modeling completado: {OUTPUT_TOPICS}")
 
-# --- 4) Similaridad entre papers (top 5 abstracts más parecidos) ---
+# --- 4) Similaridad entre papers ---
 # Vectorizamos los abstracts
 
 for i, a in enumerate(df['abstract'].fillna('').tolist()[:15]):
