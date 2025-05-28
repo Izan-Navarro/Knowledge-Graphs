@@ -37,7 +37,7 @@ selected_query = st.selectbox("Selecciona la consulta que quieres ejecutar:", op
 
 # Input si selecciona "Autores de un paper específico"
 if selected_query == "Autores de un paper específico" or selected_query == "Listar todos los Topics de un Paper" or selected_query == "Extraer los similares de un Paper concreto":
-    doi_input = st.text_input("Introduce el identificador del paper (por ejemplo: 10.1007_s11036-021-01777-7)").replace("/", "_")
+    doi_input = st.text_input("Introduce el identificador del paper (por ejemplo: 10.18637/jss.v067.i01)").replace("/", "_")
 elif selected_query == "Buscar Papers que pertenecen al Topic":
     label_input = st.text_input("Introduce el topic que quieras buscar")
 elif selected_query == "Contar cuántos Autores tiene cada Paper":
