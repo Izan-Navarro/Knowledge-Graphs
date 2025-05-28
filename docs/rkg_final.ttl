@@ -1,0 +1,2707 @@
+@prefix author: <https://grupo6.org/author/> .
+@prefix ctry: <https://grupo6.org/country/> .
+@prefix ex: <https://grupo6.org/ontology#> .
+@prefix paper: <https://grupo6.org/paper/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ror: <https://grupo6.org/institution/> .
+@prefix topic: <https://grupo6.org/topic/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+paper:10.1002_jcc.21256 a ex:Paper ;
+    ex:doi "10.1002/jcc.21256"^^xsd:string ;
+    ex:fechaPublicacion "2010 December 1."^^xsd:string ;
+    ex:numeroCitas 21078 ;
+    ex:paperEscritos author:arthur_j_olson,
+        author:david_s_goodsell,
+        author:garrett_m_morris,
+        author:michel_f_sanner,
+        author:richard_k_belew,
+        author:ruth_huey,
+        author:william_lindstrom ;
+    ex:perteneceA topic:c103697762,
+        topic:c105795698,
+        topic:c107824862,
+        topic:c147597530,
+        topic:c159110408,
+        topic:c178790620,
+        topic:c180577832,
+        topic:c185592680,
+        topic:c187691185,
+        topic:c199360897,
+        topic:c21951064,
+        topic:c2524010,
+        topic:c2780598303,
+        topic:c33923547,
+        topic:c37789001,
+        topic:c41008148,
+        topic:c41685203,
+        topic:c44695244,
+        topic:c55493867,
+        topic:c59593255,
+        topic:c70721500,
+        topic:c71924100,
+        topic:c77319485,
+        topic:c86803240 ;
+    ex:similarA paper:nan ;
+    ex:titulo "AutoDock4 and AutoDockTools4: Automated Docking with Selective Receptor Flexibility"^^xsd:string .
+
+<https://grupo6.org/author/]_savitha> a ex:Author ;
+    ex:nombreAutor "] Savitha"^^xsd:string ;
+    ex:trabajaEn ror:maine_school_of_science_and_mathematics .
+
+author:__mcshane a ex:Author ;
+    ex:nombreAutor "/ Mcshane"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:__radmacher a ex:Author ;
+    ex:nombreAutor "/ Radmacher"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:a_l_emadi a ex:Author ;
+    ex:nombreAutor "A L Emadi"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_electrical_engineering .
+
+author:a_mira a ex:Author ;
+    ex:nombreAutor "A Mira"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:a_tragha a ex:Author ;
+    ex:nombreAutor "A Tragha"^^xsd:string ;
+    ex:trabajaEn ror:faculty_of_sciences_of_sfax .
+
+author:a_tsiatis a ex:Author ;
+    ex:nombreAutor "A Tsiatis"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:aaron_mckenna a ex:Author ;
+    ex:nombreAutor "Aaron Mckenna"^^xsd:string ;
+    ex:trabajaEn ror:national_institute_on_population_medical_genetics .
+
+author:abhijit_de a ex:Author ;
+    ex:nombreAutor "Abhijit De"^^xsd:string ;
+    ex:trabajaEn ror:phoenix_molecular_imaging .
+
+author:adiyoso_setio a ex:Author ;
+    ex:nombreAutor "Adiyoso Setio"^^xsd:string ;
+    ex:trabajaEn ror:radboud_university_nijmegen .
+
+author:ahmed_raza a ex:Author ;
+    ex:nombreAutor "Ahmed Raza"^^xsd:string ;
+    ex:trabajaEn ror:college_of_the_mainland .
+
+author:alain_f_zuur a ex:Author ;
+    ex:nombreAutor "Alain F Zuur"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:alan_karthikesalingam a ex:Author ;
+    ex:nombreAutor "Alan Karthikesalingam"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:albert_gubern_mérida a ex:Author ;
+    ex:nombreAutor "Albert Gubern-Mérida"^^xsd:string ;
+    ex:trabajaEn ror:research_institute_of_radiology .
+
+author:ali_can a ex:Author ;
+    ex:nombreAutor "Ali Can"^^xsd:string ;
+    ex:trabajaEn ror:biomedical_informatics_research_center_antwerp .
+
+author:allan_haldane a ex:Author ;
+    ex:nombreAutor "Allan Haldane"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:amirali_b_bukhari a ex:Author ;
+    ex:nombreAutor "Amirali B Bukhari"^^xsd:string ;
+    ex:trabajaEn ror:phoenix_molecular_imaging .
+
+author:amith_khandakar a ex:Author ;
+    ex:nombreAutor "Amith Khandakar"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_electrical_engineering .
+
+author:anatoly_a_saveliev a ex:Author ;
+    ex:nombreAutor "Anatoly A Saveliev"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:andrew_kernytsky a ex:Author ;
+    ex:nombreAutor "Andrew Kernytsky"^^xsd:string ;
+    ex:trabajaEn ror:national_institute_on_population_medical_genetics .
+
+author:andrey_sivachenko a ex:Author ;
+    ex:nombreAutor "Andrey Sivachenko"^^xsd:string ;
+    ex:trabajaEn ror:national_institute_on_population_medical_genetics .
+
+author:ara_darzi a ex:Author ;
+    ex:nombreAutor "Ara Darzi"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:ard_den_heeten a ex:Author ;
+    ex:nombreAutor "Ard Den Heeten"^^xsd:string ;
+    ex:trabajaEn ror:research_institute_of_radiology .
+
+author:arnaud_arindra a ex:Author ;
+    ex:nombreAutor "Arnaud Arindra"^^xsd:string ;
+    ex:trabajaEn ror:radboud_university_nijmegen .
+
+author:arthur_j_olson a ex:Author ;
+    ex:nombreAutor "Arthur J Olson"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_molecular_biology .
+
+author:article_info a ex:Author ;
+    ex:nombreAutor "Article Info"^^xsd:string ;
+    ex:trabajaEn ror:cégep_de_jonquière .
+
+author:babak_ehteshami_bejnordi a ex:Author ;
+    ex:nombreAutor "Babak Ehteshami Bejnordi"^^xsd:string ;
+    ex:trabajaEn ror:radboud_university_nijmegen .
+
+author:ben_langmead a ex:Author ;
+    ex:nombreAutor "Ben Langmead"^^xsd:string ;
+    ex:trabajaEn ror:international_society_for_computational_biology .
+
+author:benjamin_m_bolker a ex:Author ;
+    ex:nombreAutor "Benjamin M Bolker"^^xsd:string ;
+    ex:trabajaEn <https://grupo6.org/institution/university_of_wisconsin–madison> .
+
+author:bernardino_romera_paredes a ex:Author ;
+    ex:nombreAutor "Bernardino Romera-Paredes"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:c_a_mcalpine a ex:Author ;
+    ex:nombreAutor "C A Mcalpine"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:charles_r_harris a ex:Author ;
+    ex:nombreAutor "Charles R Harris"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:christoph_gohlke a ex:Author ;
+    ex:nombreAutor "Christoph Gohlke"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:christopher_j_kelly a ex:Author ;
+    ex:nombreAutor "Christopher J Kelly"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:clara_i_sánchez a ex:Author ;
+    ex:nombreAutor "Clara I Sánchez"^^xsd:string ;
+    ex:trabajaEn ror:research_institute_of_radiology .
+
+author:cole_trapnell a ex:Author ;
+    ex:nombreAutor "Cole Trapnell"^^xsd:string ;
+    ex:trabajaEn ror:international_society_for_computational_biology .
+
+author:d_raffaelli a ex:Author ;
+    ex:nombreAutor "D Raffaelli"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:dag_johansen a ex:Author ;
+    ex:nombreAutor "Dag Johansen"^^xsd:string ;
+    ex:trabajaEn ror:université_internationale_de_tunis .
+
+author:daitie_zou a ex:Author ;
+    ex:nombreAutor "Daitie Zou"^^xsd:string ;
+    ex:trabajaEn ror:gerrit_rietveld_academy .
+
+author:daniel_tse a ex:Author ;
+    ex:nombreAutor "Daniel Tse"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:david a ex:Author ;
+    ex:nombreAutor "David"^^xsd:string ;
+    ex:trabajaEn ror:college_of_the_mainland .
+
+author:david_altshuler a ex:Author ;
+    ex:nombreAutor "David Altshuler"^^xsd:string ;
+    ex:trabajaEn ror:national_institute_on_population_medical_genetics .
+
+author:david_cournapeau a ex:Author ;
+    ex:nombreAutor "David Cournapeau"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:david_melnick a ex:Author ;
+    ex:nombreAutor "David Melnick"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:david_r_j_snead a ex:Author ;
+    ex:nombreAutor "David R J Snead"^^xsd:string ;
+    ex:trabajaEn ror:college_of_the_mainland .
+
+author:david_s_goodsell a ex:Author ;
+    ex:nombreAutor "David S Goodsell"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_molecular_biology .
+
+author:debesh_jha a ex:Author ;
+    ex:nombreAutor "Debesh Jha"^^xsd:string ;
+    ex:trabajaEn ror:université_internationale_de_tunis .
+
+author:demis_hassabis a ex:Author ;
+    ex:nombreAutor "Demis Hassabis"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:dominic_king a ex:Author ;
+    ex:nombreAutor "Dominic King"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:douglas_bates a ex:Author ;
+    ex:nombreAutor "Douglas Bates"^^xsd:string ;
+    ex:trabajaEn <https://grupo6.org/institution/university_of_wisconsin–madison> .
+
+author:e_benlahmar a ex:Author ;
+    ex:nombreAutor "E Benlahmar"^^xsd:string ;
+    ex:trabajaEn ror:faculty_of_sciences_of_sfax .
+
+author:elena_n_ieno a ex:Author ;
+    ex:nombreAutor "Elena N Ieno"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:eric_banks a ex:Author ;
+    ex:nombreAutor "Eric Banks"^^xsd:string ;
+    ex:trabajaEn ror:national_institute_on_population_medical_genetics .
+
+author:eric_wieser a ex:Author ;
+    ex:nombreAutor "Eric Wieser"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:eugene_fluder a ex:Author ;
+    ex:nombreAutor "Eugene Fluder"^^xsd:string ;
+    ex:trabajaEn ror:icahn_school_of_medicine_at_mount_sinai .
+
+author:f_carvalho a ex:Author ;
+    ex:nombreAutor "F Carvalho"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:fiona_j_gilbert a ex:Author ;
+    ex:nombreAutor "Fiona J Gilbert"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:florencia_garcia_vicente a ex:Author ;
+    ex:nombreAutor "Florencia Garcia-Vicente"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:francesco_ciompi a ex:Author ;
+    ex:nombreAutor "Francesco Ciompi"^^xsd:string ;
+    ex:trabajaEn ror:radboud_university_nijmegen .
+
+author:frency_varghese a ex:Author ;
+    ex:nombreAutor "Frency Varghese"^^xsd:string ;
+    ex:trabajaEn ror:phoenix_molecular_imaging .
+
+author:g_j_pierce a ex:Author ;
+    ex:nombreAutor "G J Pierce"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:garrett_m_morris a ex:Author ;
+    ex:nombreAutor "Garrett M Morris"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_molecular_biology .
+
+author:gautam_srivastava a ex:Author ;
+    ex:nombreAutor "Gautam Srivastava"^^xsd:string ;
+    ex:trabajaEn <https://grupo6.org/institution/ministerio_de_ciencia,_innovación_y_universidades> .
+
+author:graham_m_smith a ex:Author ;
+    ex:nombreAutor "Graham M Smith"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:greg_c_corrado a ex:Author ;
+    ex:nombreAutor "Greg C Corrado"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:hameer_abbasi a ex:Author ;
+    ex:nombreAutor "Hameer Abbasi"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:hormuz_mostofi a ex:Author ;
+    ex:nombreAutor "Hormuz Mostofi"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:hui_li a ex:Author ;
+    ex:nombreAutor "Hui Li"^^xsd:string ;
+    ex:trabajaEn ror:college_of_accounting .
+
+author:hutan_ashrafian a ex:Author ;
+    ex:nombreAutor "Hutan Ashrafian"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+<https://grupo6.org/author/h├ñvard_d_johansen> a ex:Author ;
+    ex:nombreAutor "H├Ñvard D Johansen"^^xsd:string ;
+    ex:trabajaEn ror:université_internationale_de_tunis .
+
+author:i_g_priede a ex:Author ;
+    ex:nombreAutor "I G Priede"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:ian_a_cree a ex:Author ;
+    ex:nombreAutor "Ian A Cree"^^xsd:string ;
+    ex:trabajaEn ror:college_of_the_mainland .
+
+author:j_r_rhodes a ex:Author ;
+    ex:nombreAutor "J R Rhodes"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:j_samet a ex:Author ;
+    ex:nombreAutor "J Samet"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+<https://grupo6.org/author/jaime_fern├índez_del_r├¡o> a ex:Author ;
+    ex:nombreAutor "Jaime Fern├índez Del R├¡o"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:jeffrey_de_fauw a ex:Author ;
+    ex:nombreAutor "Jeffrey De Fauw"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:jeffrey_n_chiang a ex:Author ;
+    ex:nombreAutor "Jeffrey N Chiang"^^xsd:string .
+
+author:jeroen_a_w_m_van_der_laak a ex:Author ;
+    ex:nombreAutor "Jeroen A W M Van Der Laak"^^xsd:string ;
+    ex:trabajaEn ror:radboud_university_nijmegen .
+
+author:jiabo_tan a ex:Author ;
+    ex:nombreAutor "Jiabo Tan"^^xsd:string ;
+    ex:trabajaEn ror:defense_information_school .
+
+author:jingnan_hu a ex:Author ;
+    ex:nombreAutor "Jingnan Hu"^^xsd:string ;
+    ex:trabajaEn ror:college_of_accounting .
+
+author:jingyi_li a ex:Author ;
+    ex:nombreAutor "Jingyi Li"^^xsd:string ;
+    ex:trabajaEn <https://grupo6.org/institution/ministerio_de_ciencia,_innovación_y_universidades> .
+
+author:jonathan_godwin a ex:Author ;
+    ex:nombreAutor "Jonathan Godwin"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:joseph_h_rothstein a ex:Author ;
+    ex:nombreAutor "Joseph H Rothstein"^^xsd:string ;
+    ex:trabajaEn ror:icahn_school_of_medicine_at_mount_sinai .
+
+author:joseph_r_ledsam a ex:Author ;
+    ex:nombreAutor "Joseph R Ledsam"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:joshua_jay_reicher a ex:Author ;
+    ex:nombreAutor "Joshua Jay Reicher"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:julian_taylor a ex:Author ;
+    ex:nombreAutor "Julian Taylor"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:juxiao_zhang a ex:Author ;
+    ex:nombreAutor "Juxiao Zhang"^^xsd:string ;
+    ex:trabajaEn ror:maine_school_of_science_and_mathematics .
+
+<https://grupo6.org/author/j├╝rgen_rudolph> a ex:Author ;
+    ex:nombreAutor "J├╝rgen Rudolph"^^xsd:string ;
+    ex:trabajaEn ror:director_of_national_parks .
+
+author:k_el_guemmat a ex:Author ;
+    ex:nombreAutor "K El Guemmat"^^xsd:string ;
+    ex:trabajaEn ror:faculty_of_sciences_of_sfax .
+
+author:k_jarrod_millman a ex:Author ;
+    ex:nombreAutor "K Jarrod Millman"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:k_krickeberg a ex:Author ;
+    ex:nombreAutor "K Krickeberg"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:kenneth_c_young a ex:Author ;
+    ex:nombreAutor "Kenneth C Young"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:kevin_sheppard a ex:Author ;
+    ex:nombreAutor "Kevin Sheppard"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:khusni_syauqi a ex:Author ;
+    ex:nombreAutor "Khusni Syauqi"^^xsd:string ;
+    ex:trabajaEn ror:cégep_de_jonquière .
+
+author:kiran_garimella a ex:Author ;
+    ex:nombreAutor "Kiran Garimella"^^xsd:string ;
+    ex:trabajaEn ror:national_institute_on_population_medical_genetics .
+
+author:korsuk a ex:Author ;
+    ex:nombreAutor "Korsuk"^^xsd:string ;
+    ex:trabajaEn ror:college_of_the_mainland .
+
+author:korsuk_sirinukunwattana a ex:Author ;
+    ex:nombreAutor "Korsuk Sirinukunwattana"^^xsd:string ;
+    ex:trabajaEn ror:college_of_the_mainland .
+
+author:kristian_cibulskis a ex:Author ;
+    ex:nombreAutor "Kristian Cibulskis"^^xsd:string ;
+    ex:trabajaEn ror:national_institute_on_population_medical_genetics .
+
+author:l_b_gende a ex:Author ;
+    ex:nombreAutor "L B Gende"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:laura_e_boucheron a ex:Author ;
+    ex:nombreAutor "Laura E Boucheron"^^xsd:string ;
+    ex:trabajaEn ror:biomedical_informatics_research_center_antwerp .
+
+author:laura_jeyaseelan a ex:Author ;
+    ex:nombreAutor "Laura Jeyaseelan"^^xsd:string .
+
+author:laurie_r_margolies a ex:Author ;
+    ex:nombreAutor "Laurie R Margolies"^^xsd:string ;
+    ex:trabajaEn ror:icahn_school_of_medicine_at_mount_sinai .
+
+author:li_shen a ex:Author ;
+    ex:nombreAutor "Li Shen"^^xsd:string ;
+    ex:trabajaEn ror:icahn_school_of_medicine_at_mount_sinai .
+
+author:lijuan_liu a ex:Author ;
+    ex:nombreAutor "Lijuan Liu"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_computer_science .
+
+author:lily_peng a ex:Author ;
+    ex:nombreAutor "Lily Peng"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+<https://grupo6.org/author/m_b_santos_v├ízquez> a ex:Author ;
+    ex:nombreAutor "M B Santos V├ízquez"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:m_cronin a ex:Author ;
+    ex:nombreAutor "M Cronin"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:m_gail a ex:Author ;
+    ex:nombreAutor "M Gail"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:m_j_eguaras a ex:Author ;
+    ex:nombreAutor "M J Eguaras"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:m_j_latuhihin a ex:Author ;
+    ex:nombreAutor "M J Latuhihin"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:marcin_t_sieniek a ex:Author ;
+    ex:nombreAutor "Marcin T Sieniek"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:mark_a_depristo a ex:Author ;
+    ex:nombreAutor "Mark A Depristo"^^xsd:string ;
+    ex:trabajaEn ror:national_institute_on_population_medical_genetics .
+
+author:mark_daly a ex:Author ;
+    ex:nombreAutor "Mark Daly"^^xsd:string ;
+    ex:trabajaEn ror:national_institute_on_population_medical_genetics .
+
+author:mark_halling_brown a ex:Author ;
+    ex:nombreAutor "Mark Halling-Brown"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:mark_wiebe a ex:Author ;
+    ex:nombreAutor "Mark Wiebe"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:marten_h_van_kerkwijk a ex:Author ;
+    ex:nombreAutor "Marten H Van Kerkwijk"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+<https://grupo6.org/author/martin_m├ñchler> a ex:Author ;
+    ex:nombreAutor "Martin M├ñchler"^^xsd:string ;
+    ex:trabajaEn <https://grupo6.org/institution/university_of_wisconsin–madison> .
+
+author:mary_chesus a ex:Author ;
+    ex:nombreAutor "Mary Chesus"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:matthew_brett a ex:Author ;
+    ex:nombreAutor "Matthew Brett"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:matthew_hanna a ex:Author ;
+    ex:nombreAutor "Matthew Hanna"^^xsd:string ;
+    ex:trabajaEn ror:national_institute_on_population_medical_genetics .
+
+author:matti_picus a ex:Author ;
+    ex:nombreAutor "Matti Picus"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:mengyang_xu a ex:Author ;
+    ex:nombreAutor "Mengyang Xu"^^xsd:string ;
+    ex:trabajaEn ror:maine_school_of_science_and_mathematics .
+
+author:methodological_review a ex:Author ;
+    ex:nombreAutor "Methodological Review"^^xsd:string ;
+    ex:trabajaEn ror:biomedical_informatics_research_center_antwerp .
+
+author:metin_n_gurcan a ex:Author ;
+    ex:nombreAutor "Metin N Gurcan"^^xsd:string ;
+    ex:trabajaEn ror:biomedical_informatics_research_center_antwerp .
+
+author:michael_a_riegler a ex:Author ;
+    ex:nombreAutor "Michael A Riegler"^^xsd:string ;
+    ex:trabajaEn ror:université_internationale_de_tunis .
+
+author:michel_f_sanner a ex:Author ;
+    ex:nombreAutor "Michel F Sanner"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_molecular_biology .
+
+author:mihai_pop a ex:Author ;
+    ex:nombreAutor "Mihai Pop"^^xsd:string ;
+    ex:trabajaEn ror:international_society_for_computational_biology .
+
+author:mochamad_bruri_triyono a ex:Author ;
+    ex:nombreAutor "Mochamad Bruri Triyono"^^xsd:string ;
+    ex:trabajaEn ror:cégep_de_jonquière .
+
+author:mohammad_tariqul_islam a ex:Author ;
+    ex:nombreAutor "Mohammad Tariqul Islam"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_electrical_engineering .
+
+author:mohsen_ghafoorian a ex:Author ;
+    ex:nombreAutor "Mohsen Ghafoorian"^^xsd:string ;
+    ex:trabajaEn ror:radboud_university_nijmegen .
+
+author:mozziyar_etemadi a ex:Author ;
+    ex:nombreAutor "Mozziyar Etemadi"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:muhammad_abdul_kadir a ex:Author ;
+    ex:nombreAutor "Muhammad Abdul Kadir"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_electrical_engineering .
+
+author:muhammad_e_h_chowdhur a ex:Author ;
+    ex:nombreAutor "Muhammad E H Chowdhur"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_electrical_engineering .
+
+author:muhammad_e_h_chowdhury a ex:Author ;
+    ex:nombreAutor "Muhammad E H Chowdhury"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_electrical_engineering .
+
+author:mustafa_suleyman a ex:Author ;
+    ex:nombreAutor "Mustafa Suleyman"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+<https://grupo6.org/author/n_j_fern├índez> a ex:Author ;
+    ex:nombreAutor "N J Fern├índez"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:nan a ex:Author ;
+    ex:nombreAutor "nan"^^xsd:string ;
+    ex:trabajaEn ror:centre_de_mathématiques_appliquées___cma .
+
+author:nasir_mahmood a ex:Author ;
+    ex:nombreAutor "Nasir Mahmood"^^xsd:string ;
+    ex:trabajaEn ror:college_of_the_mainland .
+
+author:natasha_antropova a ex:Author ;
+    ex:nombreAutor "Natasha Antropova"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:nathaniel_j_smith a ex:Author ;
+    ex:nombreAutor "Nathaniel J Smith"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:neil_j_walker a ex:Author ;
+    ex:nombreAutor "Neil J Walker"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:nico_karssemeijer a ex:Author ;
+    ex:nombreAutor "Nico Karssemeijer"^^xsd:string ;
+    ex:trabajaEn ror:research_institute_of_radiology .
+
+author:nima_tajbakhsh a ex:Author ;
+    ex:nombreAutor "Nima Tajbakhsh"^^xsd:string .
+
+author:norway a ex:Author ;
+    ex:nombreAutor "Norway"^^xsd:string ;
+    ex:trabajaEn ror:université_internationale_de_tunis .
+
+author:p_l_luque a ex:Author ;
+    ex:nombreAutor "P L Luque"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:pauli_virtanen a ex:Author ;
+    ex:nombreAutor "Pauli Virtanen"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:pearu_peterson a ex:Author ;
+    ex:nombreAutor "Pearu Peterson"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:peng_gao a ex:Author ;
+    ex:nombreAutor "Peng Gao"^^xsd:string ;
+    ex:trabajaEn <https://grupo6.org/institution/ministerio_de_ciencia,_innovación_y_universidades> .
+
+<https://grupo6.org/author/pierre_g├®rard_marchant> a ex:Author ;
+    ex:nombreAutor "Pierre G├®rard-Marchant"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+<https://grupo6.org/author/p├ñl_halvorsen> a ex:Author ;
+    ex:nombreAutor "P├Ñl Halvorsen"^^xsd:string ;
+    ex:trabajaEn ror:université_internationale_de_tunis .
+
+author:qian_li a ex:Author ;
+    ex:nombreAutor "Qian Li"^^xsd:string .
+
+author:qing_lv a ex:Author ;
+    ex:nombreAutor "Qing Lv"^^xsd:string ;
+    ex:trabajaEn ror:research_institute_of_posts_and_telecommunications .
+
+author:r_fritz a ex:Author ;
+    ex:nombreAutor "R Fritz"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:ralf_gommers a ex:Author ;
+    ex:nombreAutor "Ralf Gommers"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:renu_malhotra a ex:Author ;
+    ex:nombreAutor "Renu Malhotra"^^xsd:string ;
+    ex:trabajaEn ror:phoenix_molecular_imaging .
+
+author:richard_k_belew a ex:Author ;
+    ex:nombreAutor "Richard K Belew"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_molecular_biology .
+
+author:richard_sidebottom a ex:Author ;
+    ex:nombreAutor "Richard Sidebottom"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:ritse_mann a ex:Author ;
+    ex:nombreAutor "Ritse Mann"^^xsd:string ;
+    ex:trabajaEn ror:research_institute_of_radiology .
+
+author:robert_kern a ex:Author ;
+    ex:nombreAutor "Robert Kern"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:russell_mcbride a ex:Author ;
+    ex:nombreAutor "Russell Mcbride"^^xsd:string ;
+    ex:trabajaEn ror:icahn_school_of_medicine_at_mount_sinai .
+
+author:ruth_huey a ex:Author ;
+    ex:nombreAutor "Ruth Huey"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_molecular_biology .
+
+author:salman_khan a ex:Author ;
+    ex:nombreAutor "Salman Khan"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_electrical_engineering .
+
+author:scott_mayer_mckinney a ex:Author ;
+    ex:nombreAutor "Scott Mayer Mckinney"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:sebastian_berg a ex:Author ;
+    ex:nombreAutor "Sebastian Berg"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:shan_e_ahmed_raza a ex:Author ;
+    ex:nombreAutor "Shan-E-Ahmed Raza"^^xsd:string ;
+    ex:trabajaEn ror:college_of_the_mainland .
+
+author:shravya_shetty a ex:Author ;
+    ex:nombreAutor "Shravya Shetty"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:simon___korn a ex:Author ;
+    ex:nombreAutor "Simon / Korn"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:simulamet a ex:Author ;
+    ex:nombreAutor "Simulamet"^^xsd:string ;
+    ex:trabajaEn ror:université_internationale_de_tunis .
+
+author:sirinukunwattana a ex:Author ;
+    ex:nombreAutor "Sirinukunwattana"^^xsd:string ;
+    ex:trabajaEn ror:college_of_the_mainland .
+
+author:snead a ex:Author ;
+    ex:nombreAutor "Snead"^^xsd:string ;
+    ex:trabajaEn ror:college_of_the_mainland .
+
+author:stacey_gabriel a ex:Author ;
+    ex:nombreAutor "Stacey Gabriel"^^xsd:string ;
+    ex:trabajaEn ror:national_institute_on_population_medical_genetics .
+
+author:stephan_hoyer a ex:Author ;
+    ex:nombreAutor "Stephan Hoyer"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:stephen_m_smith a ex:Author ;
+    ex:nombreAutor "Stephen M Smith"^^xsd:string ;
+    ex:trabajaEn ror:wellcome_centre_for_integrative_neuroimaging .
+
+author:steven_c_walker a ex:Author ;
+    ex:nombreAutor "Steven C Walker"^^xsd:string ;
+    ex:trabajaEn <https://grupo6.org/institution/university_of_wisconsin–madison> .
+
+author:steven_l_salzberg a ex:Author ;
+    ex:nombreAutor "Steven L Salzberg"^^xsd:string ;
+    ex:trabajaEn ror:international_society_for_computational_biology .
+
+<https://grupo6.org/author/st├®fan_j_van_der_walt> a ex:Author ;
+    ex:nombreAutor "St├®fan J Van Der Walt"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:sudji_munadi a ex:Author ;
+    ex:nombreAutor "Sudji Munadi"^^xsd:string ;
+    ex:trabajaEn ror:cégep_de_jonquière .
+
+author:sunny_jansen a ex:Author ;
+    ex:nombreAutor "Sunny Jansen"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:suzhen_zhang a ex:Author ;
+    ex:nombreAutor "Suzhen Zhang"^^xsd:string ;
+    ex:trabajaEn ror:research_institute_of_posts_and_telecommunications .
+
+author:tawsifur_rahman a ex:Author ;
+    ex:nombreAutor "Tawsifur Rahman"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_electrical_engineering .
+
+author:travis_e_oliphant a ex:Author ;
+    ex:nombreAutor "Travis E Oliphant"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:trevor_back a ex:Author ;
+    ex:nombreAutor "Trevor Back"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:tyler_reddy a ex:Author ;
+    ex:nombreAutor "Tyler Reddy"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:varun_godbole a ex:Author ;
+    ex:nombreAutor "Varun Godbole"^^xsd:string ;
+    ex:trabajaEn ror:google_\(ireland\) .
+
+author:vivekananda_gn a ex:Author ;
+    ex:nombreAutor "Vivekananda Gn"^^xsd:string ;
+    ex:trabajaEn ror:maine_school_of_science_and_mathematics .
+
+author:w_wong a ex:Author ;
+    ex:nombreAutor "W Wong"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:wanle_chi a ex:Author ;
+    ex:nombreAutor "Wanle Chi"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_computer_science .
+
+author:warren_weckesser a ex:Author ;
+    ex:nombreAutor "Warren Weckesser"^^xsd:string ;
+    ex:trabajaEn ror:korea_electronics_technology_institute .
+
+author:weina_fu a ex:Author ;
+    ex:nombreAutor "Weina Fu"^^xsd:string ;
+    ex:trabajaEn <https://grupo6.org/institution/ministerio_de_ciencia,_innovación_y_universidades> .
+
+author:weiva_sieh a ex:Author ;
+    ex:nombreAutor "Weiva Sieh"^^xsd:string ;
+    ex:trabajaEn ror:icahn_school_of_medicine_at_mount_sinai .
+
+author:william_lindstrom a ex:Author ;
+    ex:nombreAutor "William Lindstrom"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_molecular_biology .
+
+author:wright___zhao a ex:Author ;
+    ex:nombreAutor "Wright / Zhao"^^xsd:string ;
+    ex:trabajaEn ror:trade_extensions_\(sweden\) .
+
+author:xiaowei_ding a ex:Author ;
+    ex:nombreAutor "Xiaowei Ding"^^xsd:string .
+
+author:xiaoyan_jiang a ex:Author ;
+    ex:nombreAutor "Xiaoyan Jiang"^^xsd:string ;
+    ex:trabajaEn ror:maine_school_of_science_and_mathematics .
+
+author:xue_han a ex:Author ;
+    ex:nombreAutor "Xue Han"^^xsd:string ;
+    ex:trabajaEn ror:maine_school_of_science_and_mathematics .
+
+author:yanping_wang a ex:Author ;
+    ex:nombreAutor "Yanping Wang"^^xsd:string ;
+    ex:trabajaEn ror:institute_of_computer_science .
+
+author:yee_wah_w_tsang a ex:Author ;
+    ex:nombreAutor "Yee-Wah W Tsang"^^xsd:string ;
+    ex:trabajaEn ror:college_of_the_mainland .
+
+author:yuechun_wang a ex:Author ;
+    ex:nombreAutor "Yuechun Wang"^^xsd:string ;
+    ex:trabajaEn ror:research_institute_of_posts_and_telecommunications .
+
+author:z_rimale a ex:Author ;
+    ex:nombreAutor "Z Rimale"^^xsd:string ;
+    ex:trabajaEn ror:faculty_of_sciences_of_sfax .
+
+author:zhihao_wu a ex:Author ;
+    ex:nombreAutor "Zhihao Wu"^^xsd:string .
+
+author:zhimin_xu a ex:Author ;
+    ex:nombreAutor "Zhimin Xu"^^xsd:string ;
+    ex:trabajaEn ror:gerrit_rietveld_academy .
+
+author:zhongshan_chen a ex:Author ;
+    ex:nombreAutor "Zhongshan Chen"^^xsd:string ;
+    ex:trabajaEn ror:maine_school_of_science_and_mathematics .
+
+author:zuojin_hu a ex:Author ;
+    ex:nombreAutor "Zuojin Hu"^^xsd:string ;
+    ex:trabajaEn ror:maine_school_of_science_and_mathematics .
+
+ctry:australia a ex:Country ;
+    ex:nombrePais "Australia"^^xsd:string .
+
+ctry:belarus a ex:Country ;
+    ex:nombrePais "Belarus"^^xsd:string .
+
+ctry:belgium a ex:Country ;
+    ex:nombrePais "Belgium"^^xsd:string .
+
+ctry:brazil a ex:Country ;
+    ex:nombrePais "Brazil"^^xsd:string .
+
+ctry:canada a ex:Country ;
+    ex:nombrePais "Canada"^^xsd:string .
+
+ctry:china a ex:Country ;
+    ex:nombrePais "China"^^xsd:string .
+
+ctry:france a ex:Country ;
+    ex:nombrePais "France"^^xsd:string .
+
+ctry:germany a ex:Country ;
+    ex:nombrePais "Germany"^^xsd:string .
+
+ctry:ireland a ex:Country ;
+    ex:nombrePais "Ireland"^^xsd:string .
+
+ctry:poland a ex:Country ;
+    ex:nombrePais "Poland"^^xsd:string .
+
+ctry:slovakia a ex:Country ;
+    ex:nombrePais "Slovakia"^^xsd:string .
+
+ctry:slovenia a ex:Country ;
+    ex:nombrePais "Slovenia"^^xsd:string .
+
+ctry:south_korea a ex:Country ;
+    ex:nombrePais "South Korea"^^xsd:string .
+
+ctry:spain a ex:Country ;
+    ex:nombrePais "Spain"^^xsd:string .
+
+ctry:sweden a ex:Country ;
+    ex:nombrePais "Sweden"^^xsd:string .
+
+ctry:united_kingdom a ex:Country ;
+    ex:nombrePais "United Kingdom"^^xsd:string .
+
+ror:centre_de_mathématiques_appliquées___cma a ex:Institution ;
+    ex:nombreInstitucion "Centre de Mathématiques Appliquées - CMA"^^xsd:string ;
+    ex:origenEn ctry:france ;
+    ex:rorId "https://ror.org/00dxbgs74"^^xsd:string .
+
+ror:defense_information_school a ex:Institution ;
+    ex:nombreInstitucion "Defense Information School"^^xsd:string ;
+    ex:origenEn ctry:united_states ;
+    ex:rorId "https://ror.org/04t5yz624"^^xsd:string .
+
+ror:director_of_national_parks a ex:Institution ;
+    ex:nombreInstitucion "Director of National Parks"^^xsd:string ;
+    ex:origenEn ctry:australia ;
+    ex:rorId "https://ror.org/02b3hht72"^^xsd:string .
+
+ror:wellcome_centre_for_integrative_neuroimaging a ex:Institution ;
+    ex:nombreInstitucion "Wellcome Centre for Integrative Neuroimaging"^^xsd:string ;
+    ex:origenEn ctry:united_kingdom ;
+    ex:rorId "https://ror.org/0172mzb45"^^xsd:string .
+
+paper:10.1007_s11036_021_01777_7 a ex:Paper ;
+    ex:doi "10.1007/s11036-021-01777-7"^^xsd:string ;
+    ex:fechaPublicacion "30 April 2021"^^xsd:string ;
+    ex:numeroCitas 190 ;
+    ex:paperEscritos author:jingyi_li,
+        author:peng_gao,
+        author:shuai_liu ;
+    ex:perteneceA topic:c110875604,
+        topic:c124101348,
+        topic:c136764020,
+        topic:c154945302,
+        topic:c2522767166,
+        topic:c26517878,
+        topic:c2984567223,
+        topic:c38652104,
+        topic:c41008148,
+        topic:c75684735 ;
+    ex:similarA paper:10.1038_s41586_020_2649_2 ;
+    ex:titulo "An Introduction to Key Technology in Artificial Intelligence and big Data Driven e-Learning and e-Education"^^xsd:string .
+
+paper:10.1038_s41586_020_2649_2 a ex:Paper ;
+    ex:doi "10.1038/s41586-020-2649-2"^^xsd:string ;
+    ex:fechaPublicacion "16 September 2020"^^xsd:string ;
+    ex:numeroCitas 17212 ;
+    ex:paperEscritos author:allan_haldane,
+        author:charles_r_harris,
+        author:christoph_gohlke,
+        author:david_cournapeau,
+        author:eric_wieser,
+        author:hameer_abbasi,
+        <https://grupo6.org/author/jaime_fern├índez_del_r├¡o>,
+        author:julian_taylor,
+        author:k_jarrod_millman,
+        author:kevin_sheppard,
+        author:mark_wiebe,
+        author:marten_h_van_kerkwijk,
+        author:matthew_brett,
+        author:matti_picus,
+        author:nathaniel_j_smith,
+        author:pauli_virtanen,
+        author:pearu_peterson,
+        <https://grupo6.org/author/pierre_g├®rard_marchant>,
+        author:ralf_gommers,
+        author:robert_kern,
+        author:sebastian_berg,
+        author:stephan_hoyer,
+        <https://grupo6.org/author/st├®fan_j_van_der_walt>,
+        author:travis_e_oliphant,
+        author:tyler_reddy,
+        author:warren_weckesser ;
+    ex:perteneceA topic:c41008148 ;
+    ex:similarA paper:10.1007_s11036_021_01777_7 ;
+    ex:titulo "Array programming with NumPy"^^xsd:string .
+
+paper:10.1101_gr.107524.110 a ex:Paper ;
+    ex:doi "10.1101/gr.107524.110"^^xsd:string ;
+    ex:fechaPublicacion "2008"^^xsd:string ;
+    ex:numeroCitas 25094 ;
+    ex:paperEscritos author:aaron_mckenna,
+        author:andrew_kernytsky,
+        author:andrey_sivachenko,
+        author:david_altshuler,
+        author:eric_banks,
+        author:kiran_garimella,
+        author:kristian_cibulskis,
+        author:mark_a_depristo,
+        author:mark_daly,
+        author:matthew_hanna,
+        author:stacey_gabriel ;
+    ex:perteneceA topic:c104317684,
+        topic:c135763542,
+        topic:c141231307,
+        topic:c153209595,
+        topic:c177264268,
+        topic:c199360897,
+        topic:c41008148,
+        topic:c51679486,
+        topic:c54355233,
+        topic:c552990157,
+        topic:c55439883,
+        topic:c70721500,
+        topic:c86803240,
+        topic:c97425143 ;
+    ex:similarA paper:10.1186_gb_2009_10_3_r25\) ;
+    ex:titulo "The Genome Analysis Toolkit: A MapReduce framework for analyzing next-generation DNA sequencing data"^^xsd:string .
+
+paper:10.1186_gb_2009_10_3_r25\) a ex:Paper ;
+    ex:doi "10.1186/gb-2009-10-3-r25)"^^xsd:string ;
+    ex:fechaPublicacion "4 March 2009"^^xsd:string ;
+    ex:paperEscritos author:ben_langmead,
+        author:cole_trapnell,
+        author:mihai_pop,
+        author:steven_l_salzberg ;
+    ex:perteneceA topic:nan ;
+    ex:similarA paper:10.1101_gr.107524.110 ;
+    ex:titulo "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome"^^xsd:string .
+
+paper:10.18637_jss.v067.i01 a ex:Paper ;
+    ex:doi "10.18637/jss.v067.i01"^^xsd:string ;
+    ex:numeroCitas 69962 ;
+    ex:paperEscritos author:benjamin_m_bolker,
+        author:douglas_bates,
+        <https://grupo6.org/author/martin_m├ñchler>,
+        author:steven_c_walker ;
+    ex:perteneceA topic:c105795698,
+        topic:c11413529,
+        topic:c119043178,
+        topic:c126255220,
+        topic:c153720581,
+        topic:c16012445,
+        topic:c163175372,
+        topic:c177599991,
+        topic:c28826006,
+        topic:c33923547,
+        topic:c3770464,
+        topic:c41008148,
+        topic:c41587187,
+        topic:c49781872,
+        topic:c61420037,
+        topic:c89106044 ;
+    ex:similarA paper:10.1109_tmi.2016.2525803 ;
+    ex:titulo "Fitting Linear Mixed-Effects Models Using lme4"^^xsd:string .
+
+topic:c10000559 a ex:Topic ;
+    rdfs:label "Brooks–Iyengar algorithm"^^xsd:string .
+
+topic:c103697762 a ex:Topic ;
+    rdfs:label "Virtual screening"^^xsd:string .
+
+topic:c105339364 a ex:Topic ;
+    rdfs:label "Software deployment"^^xsd:string .
+
+topic:c105776082 a ex:Topic ;
+    rdfs:label "Likert scale"^^xsd:string .
+
+topic:c106301342 a ex:Topic ;
+    rdfs:label "Entropy (arrow of time)"^^xsd:string .
+
+topic:c107457646 a ex:Topic ;
+    rdfs:label "Human–computer interaction"^^xsd:string .
+
+topic:c107568181 a ex:Topic ;
+    rdfs:label "Dynamic priority scheduling"^^xsd:string .
+
+topic:c107824862 a ex:Topic ;
+    rdfs:label "Binding site"^^xsd:string .
+
+topic:c108037233 a ex:Topic ;
+    rdfs:label "Wireless network"^^xsd:string .
+
+topic:c110354214 a ex:Topic ;
+    rdfs:label "Engineering management"^^xsd:string .
+
+topic:c111472728 a ex:Topic ;
+    rdfs:label "Epistemology"^^xsd:string .
+
+topic:c112416745 a ex:Topic ;
+    rdfs:label "Digital imaging"^^xsd:string .
+
+topic:c116675565 a ex:Topic ;
+    rdfs:label "Outbreak"^^xsd:string .
+
+topic:c119043178 a ex:Topic ;
+    rdfs:label "Covariate"^^xsd:string .
+
+topic:c119948110 a ex:Topic ;
+    rdfs:label "Two-level scheduling"^^xsd:string .
+
+topic:c120314980 a ex:Topic ;
+    rdfs:label "Distributed computing"^^xsd:string .
+
+topic:c123253695 a ex:Topic ;
+    rdfs:label "Industrial heritage"^^xsd:string .
+
+topic:c125473707 a ex:Topic ;
+    rdfs:label "H&E stain"^^xsd:string .
+
+topic:c126537357 a ex:Topic ;
+    rdfs:label "Hue"^^xsd:string .
+
+topic:c126838900 a ex:Topic ;
+    rdfs:label "Radiology"^^xsd:string .
+
+topic:c127456818 a ex:Topic ;
+    rdfs:label "Rate-monotonic scheduling"^^xsd:string .
+
+topic:c135763542 a ex:Topic ;
+    rdfs:label "Genotype"^^xsd:string .
+
+topic:c137981799 a ex:Topic ;
+    rdfs:label "Reusability"^^xsd:string .
+
+topic:c138496976 a ex:Topic ;
+    rdfs:label "Developmental psychology"^^xsd:string .
+
+topic:c141231307 a ex:Topic ;
+    rdfs:label "Genome"^^xsd:string .
+
+topic:c14166107 a ex:Topic ;
+    rdfs:label "Net (polyhedron)"^^xsd:string .
+
+topic:c144543869 a ex:Topic ;
+    rdfs:label "Mobile computing"^^xsd:string .
+
+topic:c146978453 a ex:Topic ;
+    rdfs:label "Aerospace engineering"^^xsd:string .
+
+topic:c147597530 a ex:Topic ;
+    rdfs:label "Computational chemistry"^^xsd:string .
+
+topic:c153209595 a ex:Topic ;
+    rdfs:label "Single-nucleotide polymorphism"^^xsd:string .
+
+topic:c153720581 a ex:Topic ;
+    rdfs:label "Generalized linear mixed model"^^xsd:string .
+
+topic:c158163496 a ex:Topic ;
+    rdfs:label "Human Protein Atlas"^^xsd:string .
+
+topic:c159047783 a ex:Topic ;
+    rdfs:label "Virology"^^xsd:string .
+
+topic:c159110408 a ex:Topic ;
+    rdfs:label "Nursing"^^xsd:string .
+
+topic:c16012445 a ex:Topic ;
+    rdfs:label "Mixed model"^^xsd:string .
+
+topic:c162324750 a ex:Topic ;
+    rdfs:label "Economics"^^xsd:string .
+
+topic:c163175372 a ex:Topic ;
+    rdfs:label "Linear model"^^xsd:string .
+
+topic:c164866538 a ex:Topic ;
+    rdfs:label "Cluster (spacecraft)"^^xsd:string .
+
+topic:c1668388 a ex:Topic ;
+    rdfs:label "Data management"^^xsd:string .
+
+topic:c166957645 a ex:Topic ;
+    rdfs:label "Archaeology"^^xsd:string .
+
+topic:c169760540 a ex:Topic ;
+    rdfs:label "Neuroscience"^^xsd:string .
+
+topic:c169903167 a ex:Topic ;
+    rdfs:label "Test set"^^xsd:string .
+
+topic:c170130773 a ex:Topic ;
+    rdfs:label "Usability"^^xsd:string .
+
+topic:c174576160 a ex:Topic ;
+    rdfs:label "Deconvolution"^^xsd:string .
+
+topic:c176217482 a ex:Topic ;
+    rdfs:label "Metric (unit)"^^xsd:string .
+
+topic:c177599991 a ex:Topic ;
+    rdfs:label "Deviance (statistics)"^^xsd:string .
+
+topic:c178790620 a ex:Topic ;
+    rdfs:label "Organic chemistry"^^xsd:string .
+
+topic:c180577832 a ex:Topic ;
+    rdfs:label "Covalent bond"^^xsd:string .
+
+topic:c186370098 a ex:Topic ;
+    rdfs:label "Energy (signal processing)"^^xsd:string .
+
+topic:c186967261 a ex:Topic ;
+    rdfs:label "Mobile device"^^xsd:string .
+
+topic:c187691185 a ex:Topic ;
+    rdfs:label "Grid"^^xsd:string .
+
+topic:c188087704 a ex:Topic ;
+    rdfs:label "Standardization"^^xsd:string .
+
+topic:c191178318 a ex:Topic ;
+    rdfs:label "Thresholding"^^xsd:string .
+
+topic:c198783460 a ex:Topic ;
+    rdfs:label "Management system"^^xsd:string .
+
+topic:c204232928 a ex:Topic ;
+    rdfs:label "Immunohistochemistry"^^xsd:string .
+
+topic:c204323151 a ex:Topic ;
+    rdfs:label "Range (aeronautics)"^^xsd:string .
+
+topic:c21200559 a ex:Topic ;
+    rdfs:label "Sensitivity (control systems)"^^xsd:string .
+
+topic:c21951064 a ex:Topic ;
+    rdfs:label "Combinatorial chemistry"^^xsd:string .
+
+topic:c24326235 a ex:Topic ;
+    rdfs:label "Electronic engineering"^^xsd:string .
+
+topic:c24590314 a ex:Topic ;
+    rdfs:label "Wireless sensor network"^^xsd:string .
+
+topic:c26760741 a ex:Topic ;
+    rdfs:label "Perception"^^xsd:string .
+
+topic:c2777267654 a ex:Topic ;
+    rdfs:label "Test (biology)"^^xsd:string .
+
+topic:c2777648619 a ex:Topic ;
+    rdfs:label "Learning analytics"^^xsd:string .
+
+topic:c2777904410 a ex:Topic ;
+    rdfs:label "Software"^^xsd:string .
+
+topic:c2777914695 a ex:Topic ;
+    rdfs:label "Pneumonia"^^xsd:string .
+
+topic:c2778156585 a ex:Topic ;
+    rdfs:label "Relay"^^xsd:string .
+
+topic:c2778158872 a ex:Topic ;
+    rdfs:label "Viral pneumonia"^^xsd:string .
+
+topic:c2778491387 a ex:Topic ;
+    rdfs:label "Breast cancer screening"^^xsd:string .
+
+topic:c2778572836 a ex:Topic ;
+    rdfs:label "Space (punctuation)"^^xsd:string .
+
+topic:c2779041454 a ex:Topic ;
+    rdfs:label "Chatbot"^^xsd:string .
+
+topic:c2779106483 a ex:Topic ;
+    rdfs:label "M-learning"^^xsd:string .
+
+topic:c2779191767 a ex:Topic ;
+    rdfs:label "Mobile cloud computing"^^xsd:string .
+
+topic:c2779343474 a ex:Topic ;
+    rdfs:label "Context (archaeology)"^^xsd:string .
+
+topic:c2779460620 a ex:Topic ;
+    rdfs:label "Intangible cultural heritage"^^xsd:string .
+
+topic:c2779530757 a ex:Topic ;
+    rdfs:label "Quality (philosophy)"^^xsd:string .
+
+topic:c2779549770 a ex:Topic ;
+    rdfs:label "Computer-aided diagnosis"^^xsd:string .
+
+topic:c2779808786 a ex:Topic ;
+    rdfs:label "Locality"^^xsd:string .
+
+topic:c2779974597 a ex:Topic ;
+    rdfs:label "Clinical Practice"^^xsd:string .
+
+topic:c2780192828 a ex:Topic ;
+    rdfs:label "Prostate cancer"^^xsd:string .
+
+topic:c2780312720 a ex:Topic ;
+    rdfs:label "Head (geology)"^^xsd:string .
+
+topic:c2780598303 a ex:Topic ;
+    rdfs:label "Flexibility (engineering)"^^xsd:string .
+
+topic:c2780750054 a ex:Topic ;
+    rdfs:label "Gold rush"^^xsd:string .
+
+topic:c2780902518 a ex:Topic ;
+    rdfs:label "Inheritance (genetic algorithm)"^^xsd:string .
+
+topic:c2781294515 a ex:Topic ;
+    rdfs:label "Stain"^^xsd:string .
+
+topic:c28826006 a ex:Topic ;
+    rdfs:label "Applied mathematics"^^xsd:string .
+
+topic:c2909954168 a ex:Topic ;
+    rdfs:label "Digital image analysis"^^xsd:string .
+
+topic:c2910710802 a ex:Topic ;
+    rdfs:label "Screening mammography"^^xsd:string .
+
+topic:c29595303 a ex:Topic ;
+    rdfs:label "Media studies"^^xsd:string .
+
+topic:c2984567223 a ex:Topic ;
+    rdfs:label "E learning"^^xsd:string .
+
+topic:c3006700255 a ex:Topic ;
+    rdfs:label "2019-20 coronavirus outbreak"^^xsd:string .
+
+topic:c3007834351 a ex:Topic ;
+    rdfs:label "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)"^^xsd:string .
+
+topic:c3019060180 a ex:Topic ;
+    rdfs:label "Automated method"^^xsd:string .
+
+topic:c31601959 a ex:Topic ;
+    rdfs:label "Medical imaging"^^xsd:string .
+
+topic:c31689143 a ex:Topic ;
+    rdfs:label "Fair-share scheduling"^^xsd:string .
+
+topic:c3770464 a ex:Topic ;
+    rdfs:label "Smoothing"^^xsd:string .
+
+topic:c37789001 a ex:Topic ;
+    rdfs:label "Graphical user interface"^^xsd:string .
+
+topic:c39549134 a ex:Topic ;
+    rdfs:label "Public relations"^^xsd:string .
+
+topic:c40993552 a ex:Topic ;
+    rdfs:label "Gold standard (test)"^^xsd:string .
+
+topic:c41587187 a ex:Topic ;
+    rdfs:label "Generalized linear model"^^xsd:string .
+
+topic:c41685203 a ex:Topic ;
+    rdfs:label "Docking (animal)"^^xsd:string .
+
+topic:c41971633 a ex:Topic ;
+    rdfs:label "Key distribution in wireless sensor networks"^^xsd:string .
+
+topic:c44249647 a ex:Topic ;
+    rdfs:label "Confidence interval"^^xsd:string .
+
+topic:c44695244 a ex:Topic ;
+    rdfs:label "Searching the conformational space for docking"^^xsd:string .
+
+topic:c45347329 a ex:Topic ;
+    rdfs:label "Convolution (computer science)"^^xsd:string .
+
+topic:c48044578 a ex:Topic ;
+    rdfs:label "Scalability"^^xsd:string .
+
+topic:c4924752 a ex:Topic ;
+    rdfs:label "Plug-in"^^xsd:string .
+
+topic:c49774154 a ex:Topic ;
+    rdfs:label "Multimedia"^^xsd:string .
+
+topic:c49781872 a ex:Topic ;
+    rdfs:label "Maximum likelihood"^^xsd:string .
+
+topic:c509550671 a ex:Topic ;
+    rdfs:label "Medical education"^^xsd:string .
+
+topic:c5119721 a ex:Topic ;
+    rdfs:label "Quality of service"^^xsd:string .
+
+topic:c512399662 a ex:Topic ;
+    rdfs:label "Family medicine"^^xsd:string .
+
+topic:c51632099 a ex:Topic ;
+    rdfs:label "Training set"^^xsd:string .
+
+topic:c51679486 a ex:Topic ;
+    rdfs:label "DNA sequencing"^^xsd:string .
+
+topic:c52622490 a ex:Topic ;
+    rdfs:label "Feature extraction"^^xsd:string .
+
+topic:c534262118 a ex:Topic ;
+    rdfs:label "Medical diagnosis"^^xsd:string .
+
+topic:c54355233 a ex:Topic ;
+    rdfs:label "Genetics"^^xsd:string .
+
+topic:c544855455 a ex:Topic ;
+    rdfs:label "Histopathology"^^xsd:string .
+
+topic:c552990157 a ex:Topic ;
+    rdfs:label "DNA"^^xsd:string .
+
+topic:c55439883 a ex:Topic ;
+    rdfs:label "Correctness"^^xsd:string .
+
+topic:c55587333 a ex:Topic ;
+    rdfs:label "Engineering ethics"^^xsd:string .
+
+topic:c555944384 a ex:Topic ;
+    rdfs:label "Wireless"^^xsd:string .
+
+topic:c57742111 a ex:Topic ;
+    rdfs:label "Histology"^^xsd:string .
+
+topic:c58471807 a ex:Topic ;
+    rdfs:label "Receiver operating characteristic"^^xsd:string .
+
+topic:c58640448 a ex:Topic ;
+    rdfs:label "Cartography"^^xsd:string .
+
+topic:c59593255 a ex:Topic ;
+    rdfs:label "Molecular dynamics"^^xsd:string .
+
+topic:c60671577 a ex:Topic ;
+    rdfs:label "Cultural heritage"^^xsd:string .
+
+topic:c60952562 a ex:Topic ;
+    rdfs:label "Mobile technology"^^xsd:string .
+
+topic:c61420037 a ex:Topic ;
+    rdfs:label "Restricted maximum likelihood"^^xsd:string .
+
+topic:c62611344 a ex:Topic ;
+    rdfs:label "Node (physics)"^^xsd:string .
+
+topic:c66204764 a ex:Topic ;
+    rdfs:label "Sustainability"^^xsd:string .
+
+topic:c668760 a ex:Topic ;
+    rdfs:label "Vocational education"^^xsd:string .
+
+topic:c66938386 a ex:Topic ;
+    rdfs:label "Structural engineering"^^xsd:string .
+
+topic:c6856738 a ex:Topic ;
+    rdfs:label "Protein expression"^^xsd:string .
+
+topic:c68649174 a ex:Topic ;
+    rdfs:label "Base station"^^xsd:string .
+
+topic:c74864618 a ex:Topic ;
+    rdfs:label "Staining"^^xsd:string .
+
+topic:c75294576 a ex:Topic ;
+    rdfs:label "Contextual image classification"^^xsd:string .
+
+topic:c761482 a ex:Topic ;
+    rdfs:label "Transmission (telecommunications)"^^xsd:string .
+
+topic:c77319485 a ex:Topic ;
+    rdfs:label "Protein–ligand docking"^^xsd:string .
+
+topic:c79158427 a ex:Topic ;
+    rdfs:label "Analytics"^^xsd:string .
+
+topic:c79403827 a ex:Topic ;
+    rdfs:label "Real-time computing"^^xsd:string .
+
+topic:c79974875 a ex:Topic ;
+    rdfs:label "Cloud computing"^^xsd:string .
+
+topic:c83209312 a ex:Topic ;
+    rdfs:label "Predictive analytics"^^xsd:string .
+
+topic:c85617194 a ex:Topic ;
+    rdfs:label "Particle swarm optimization"^^xsd:string .
+
+topic:c8880873 a ex:Topic ;
+    rdfs:label "Genetic algorithm"^^xsd:string .
+
+topic:c89106044 a ex:Topic ;
+    rdfs:label "Likelihood function"^^xsd:string .
+
+topic:c89623803 a ex:Topic ;
+    rdfs:label "Pandemic"^^xsd:string .
+
+topic:c93371752 a ex:Topic ;
+    rdfs:label "Cultural heritage management"^^xsd:string .
+
+topic:c93906722 a ex:Topic ;
+    rdfs:label "Sensationalism"^^xsd:string .
+
+topic:c95457728 a ex:Topic ;
+    rdfs:label "History"^^xsd:string .
+
+topic:c95623464 a ex:Topic ;
+    rdfs:label "Classifier (UML)"^^xsd:string .
+
+topic:c97425143 a ex:Topic ;
+    rdfs:label "1000 Genomes Project"^^xsd:string .
+
+topic:nan a ex:Topic ;
+    rdfs:label "nan"^^xsd:string .
+
+author:bram_van_ginneken a ex:Author ;
+    ex:nombreAutor "Bram Van Ginneken"^^xsd:string ;
+    ex:trabajaEn ror:radboud_university_nijmegen,
+        ror:research_institute_of_radiology .
+
+author:geert_litjens a ex:Author ;
+    ex:nombreAutor "Geert Litjens"^^xsd:string ;
+    ex:trabajaEn ror:radboud_university_nijmegen,
+        ror:research_institute_of_radiology .
+
+author:nasir_m_rajpoot a ex:Author ;
+    ex:nombreAutor "Nasir M Rajpoot"^^xsd:string ;
+    ex:trabajaEn ror:biomedical_informatics_research_center_antwerp,
+        ror:college_of_the_mainland .
+
+author:shuai_liu a ex:Author ;
+    ex:nombreAutor "Shuai Liu"^^xsd:string ;
+    ex:trabajaEn <https://grupo6.org/institution/ministerio_de_ciencia,_innovación_y_universidades> .
+
+author:thijs_kooi a ex:Author ;
+    ex:nombreAutor "Thijs Kooi"^^xsd:string ;
+    ex:trabajaEn ror:radboud_university_nijmegen,
+        ror:research_institute_of_radiology .
+
+ctry:the_netherlands a ex:Country ;
+    ex:nombrePais "The Netherlands"^^xsd:string .
+
+ctry:tunisia a ex:Country ;
+    ex:nombrePais "Tunisia"^^xsd:string .
+
+ror:college_of_accounting a ex:Institution ;
+    ex:nombreInstitucion "College of Accounting"^^xsd:string ;
+    ex:origenEn ctry:slovenia ;
+    ex:rorId "https://ror.org/01e5pnf26"^^xsd:string .
+
+ror:gerrit_rietveld_academy a ex:Institution ;
+    ex:nombreInstitucion "Gerrit Rietveld Academy"^^xsd:string ;
+    ex:origenEn ctry:the_netherlands ;
+    ex:rorId "https://ror.org/053jpjd80"^^xsd:string .
+
+paper:10.3390_e21090902 a ex:Paper ;
+    ex:doi "10.3390/e21090902"^^xsd:string ;
+    ex:fechaPublicacion "17 September 2019"^^xsd:string ;
+    ex:numeroCitas 229 ;
+    ex:paperEscritos author:gautam_srivastava,
+        author:shuai_liu,
+        author:weina_fu ;
+    ex:perteneceA topic:c106301342,
+        topic:c107568181,
+        topic:c119948110,
+        topic:c120314980,
+        topic:c121332964,
+        topic:c124101348,
+        topic:c126255220,
+        topic:c127456818,
+        topic:c206729178,
+        topic:c31258907,
+        topic:c31689143,
+        topic:c33923547,
+        topic:c41008148,
+        topic:c5119721,
+        topic:c62520636,
+        topic:c75684735 ;
+    ex:similarA paper:10.1155_2022_1172405,
+        paper:10.1155_2022_7796681 ;
+    ex:titulo "Optimization of Big Data Scheduling in Social Networks"^^xsd:string .
+
+paper:10.37074_jalt.2023.6.1.23 a ex:Paper ;
+    ex:doi "10.37074/jalt.2023.6.1.23"^^xsd:string ;
+    ex:fechaPublicacion "2020. 2023. March 9"^^xsd:string ;
+    ex:numeroCitas 286 ;
+    ex:paperEscritos <https://grupo6.org/author/j├╝rgen_rudolph> ;
+    ex:perteneceA topic:c111919701,
+        topic:c120912362,
+        topic:c136197465,
+        topic:c136764020,
+        topic:c144024400,
+        topic:c151730666,
+        topic:c154945302,
+        topic:c166957645,
+        topic:c17744445,
+        topic:c199539241,
+        topic:c2777267654,
+        topic:c2778572836,
+        topic:c2779041454,
+        topic:c2780750054,
+        topic:c29595303,
+        topic:c41008148,
+        topic:c86803240,
+        topic:c93906722,
+        topic:c95457728 ;
+    ex:similarA paper:10.1016_j.media.2016.07.007,
+        paper:10.1109_tmi.2017.2677499 .
+
+topic:c110875604 a ex:Topic ;
+    rdfs:label "The Internet"^^xsd:string .
+
+topic:c112313634 a ex:Topic ;
+    rdfs:label "Complement (music)"^^xsd:string .
+
+topic:c120912362 a ex:Topic ;
+    rdfs:label "Higher education"^^xsd:string .
+
+topic:c124504099 a ex:Topic ;
+    rdfs:label "Image segmentation"^^xsd:string .
+
+topic:c126255220 a ex:Topic ;
+    rdfs:label "Mathematical optimization"^^xsd:string .
+
+topic:c127716648 a ex:Topic ;
+    rdfs:label "Phenotype"^^xsd:string .
+
+topic:c136197465 a ex:Topic ;
+    rdfs:label "Variety (cybernetics)"^^xsd:string .
+
+topic:c144024400 a ex:Topic ;
+    rdfs:label "Sociology"^^xsd:string .
+
+topic:c145420912 a ex:Topic ;
+    rdfs:label "Mathematics education"^^xsd:string .
+
+topic:c160633673 a ex:Topic ;
+    rdfs:label "Pixel"^^xsd:string .
+
+topic:c163258240 a ex:Topic ;
+    rdfs:label "Power (physics)"^^xsd:string .
+
+topic:c188082640 a ex:Topic ;
+    rdfs:label "Complementation"^^xsd:string .
+
+topic:c18903297 a ex:Topic ;
+    rdfs:label "Ecology"^^xsd:string .
+
+topic:c194789388 a ex:Topic ;
+    rdfs:label "CAD"^^xsd:string .
+
+topic:c19527891 a ex:Topic ;
+    rdfs:label "Medical physics"^^xsd:string .
+
+topic:c199639397 a ex:Topic ;
+    rdfs:label "Engineering drawing"^^xsd:string .
+
+topic:c205649164 a ex:Topic ;
+    rdfs:label "Geography"^^xsd:string .
+
+topic:c206729178 a ex:Topic ;
+    rdfs:label "Scheduling (production processes)"^^xsd:string .
+
+topic:c21547014 a ex:Topic ;
+    rdfs:label "Operations management"^^xsd:string .
+
+topic:c2524010 a ex:Topic ;
+    rdfs:label "Geometry"^^xsd:string .
+
+topic:c26517878 a ex:Topic ;
+    rdfs:label "Key (lock)"^^xsd:string .
+
+topic:c2776401178 a ex:Topic ;
+    rdfs:label "Feature (linguistics)"^^xsd:string .
+
+topic:c2778755073 a ex:Topic ;
+    rdfs:label "Scale (ratio)"^^xsd:string .
+
+topic:c2779134260 a ex:Topic ;
+    rdfs:label "Disease"^^xsd:string .
+
+topic:c2781281974 a ex:Topic ;
+    rdfs:label "Digital mammography"^^xsd:string .
+
+topic:c2985322473 a ex:Topic ;
+    rdfs:label "Cancer detection"^^xsd:string .
+
+topic:c3008058167 a ex:Topic ;
+    rdfs:label "Coronavirus disease 2019 (COVID-19)"^^xsd:string .
+
+topic:c31258907 a ex:Topic ;
+    rdfs:label "Computer network"^^xsd:string .
+
+topic:c38652104 a ex:Topic ;
+    rdfs:label "Computer security"^^xsd:string .
+
+topic:c42781572 a ex:Topic ;
+    rdfs:label "Digital image"^^xsd:string .
+
+topic:c524204448 a ex:Topic ;
+    rdfs:label "Infectious disease (medical specialty)"^^xsd:string .
+
+topic:c56739046 a ex:Topic ;
+    rdfs:label "Knowledge management"^^xsd:string .
+
+topic:c58489278 a ex:Topic ;
+    rdfs:label "Data set"^^xsd:string .
+
+topic:c70721500 a ex:Topic ;
+    rdfs:label "Computational biology"^^xsd:string .
+
+topic:c76155785 a ex:Topic ;
+    rdfs:label "Telecommunications"^^xsd:string .
+
+topic:c77088390 a ex:Topic ;
+    rdfs:label "Database"^^xsd:string .
+
+topic:c98045186 a ex:Topic ;
+    rdfs:label "Process (computing)"^^xsd:string .
+
+ror:institute_of_computer_science a ex:Institution ;
+    ex:nombreInstitucion "Institute of Computer Science"^^xsd:string ;
+    ex:origenEn ctry:poland ;
+    ex:rorId "https://ror.org/003fvp964"^^xsd:string .
+
+ror:research_institute_of_posts_and_telecommunications a ex:Institution ;
+    ex:nombreInstitucion "Research Institute of Posts and Telecommunications"^^xsd:string ;
+    ex:origenEn ctry:slovakia ;
+    ex:rorId "https://ror.org/04j808v60"^^xsd:string .
+
+paper:10.1002_hbm.10062 a ex:Paper ;
+    ex:doi "10.1002/hbm.10062"^^xsd:string ;
+    ex:fechaPublicacion "8 February 2011"^^xsd:string ;
+    ex:numeroCitas 10314 ;
+    ex:paperEscritos author:stephen_m_smith ;
+    ex:perteneceA topic:c105795698,
+        topic:c115961682,
+        topic:c136197465,
+        topic:c151730666,
+        topic:c153180895,
+        topic:c154945302,
+        topic:c177264268,
+        topic:c199360897,
+        topic:c2780312720,
+        topic:c3019060180,
+        topic:c31972630,
+        topic:c33923547,
+        topic:c40993552,
+        topic:c41008148,
+        topic:c58489278,
+        topic:c86803240,
+        topic:c89600930,
+        topic:c9417928 ;
+    ex:similarA paper:10.1038_s41591_019_0508_1,
+        paper:10.1109_cbms49503.2020.00111,
+        paper:10.1109_tmi.2015.2476509 ;
+    ex:titulo "Fast Robust Automated Brain Extraction"^^xsd:string .
+
+paper:10.1093_jnci_djy222 a ex:Paper ;
+    ex:doi "10.1093/jnci/djy222"^^xsd:string ;
+    ex:numeroCitas 536 ;
+    ex:paperEscritos author:alan_karthikesalingam,
+        author:ara_darzi,
+        author:bernardino_romera_paredes,
+        author:christopher_j_kelly,
+        author:daniel_tse,
+        author:david_melnick,
+        author:demis_hassabis,
+        author:dominic_king,
+        author:fiona_j_gilbert,
+        author:florencia_garcia_vicente,
+        author:greg_c_corrado,
+        author:hormuz_mostofi,
+        author:hutan_ashrafian,
+        author:jeffrey_de_fauw,
+        author:jonathan_godwin,
+        author:joseph_r_ledsam,
+        author:joshua_jay_reicher,
+        author:kenneth_c_young,
+        author:lily_peng,
+        author:marcin_t_sieniek,
+        author:mark_halling_brown,
+        author:mary_chesus,
+        author:mozziyar_etemadi,
+        author:mustafa_suleyman,
+        author:natasha_antropova,
+        author:richard_sidebottom,
+        author:scott_mayer_mckinney,
+        author:shravya_shetty,
+        author:sunny_jansen,
+        author:trevor_back,
+        author:varun_godbole ;
+    ex:perteneceA topic:c119857082,
+        topic:c121608353,
+        topic:c126322002,
+        topic:c126838900,
+        topic:c154945302,
+        topic:c19527891,
+        topic:c2780472235,
+        topic:c2781281974,
+        topic:c2910710802,
+        topic:c2985322473,
+        topic:c41008148,
+        topic:c44249647,
+        topic:c530470458,
+        topic:c58471807,
+        topic:c71924100 ;
+    ex:similarA paper:10.1038_s41591_019_0508_1,
+        paper:10.1038_s41598_019_48995_4,
+        paper:10.1109_rbme.2009.2034865 ;
+    ex:titulo "International evaluation of an AI system for breast cancer screening"^^xsd:string .
+
+topic:c124101348 a ex:Topic ;
+    rdfs:label "Data mining"^^xsd:string .
+
+topic:c136764020 a ex:Topic ;
+    rdfs:label "World Wide Web"^^xsd:string .
+
+topic:c151730666 a ex:Topic ;
+    rdfs:label "Paleontology"^^xsd:string .
+
+topic:c15744967 a ex:Topic ;
+    rdfs:label "Psychology"^^xsd:string .
+
+topic:c17744445 a ex:Topic ;
+    rdfs:label "Political science"^^xsd:string .
+
+topic:c199539241 a ex:Topic ;
+    rdfs:label "Law"^^xsd:string .
+
+topic:c2522767166 a ex:Topic ;
+    rdfs:label "Data science"^^xsd:string .
+
+topic:c2780472235 a ex:Topic ;
+    rdfs:label "Mammography"^^xsd:string .
+
+topic:c41895202 a ex:Topic ;
+    rdfs:label "Linguistics"^^xsd:string .
+
+topic:c47177190 a ex:Topic ;
+    rdfs:label "Curriculum"^^xsd:string .
+
+topic:c530470458 a ex:Topic ;
+    rdfs:label "Breast cancer"^^xsd:string .
+
+topic:c81363708 a ex:Topic ;
+    rdfs:label "Convolutional neural network"^^xsd:string .
+
+topic:c89600930 a ex:Topic ;
+    rdfs:label "Segmentation"^^xsd:string .
+
+topic:c9417928 a ex:Topic ;
+    rdfs:label "Image processing"^^xsd:string .
+
+ror:cégep_de_jonquière a ex:Institution ;
+    ex:nombreInstitucion "Cégep de Jonquière"^^xsd:string ;
+    ex:origenEn ctry:canada ;
+    ex:rorId "https://ror.org/05gyeb173"^^xsd:string .
+
+ror:faculty_of_sciences_of_sfax a ex:Institution ;
+    ex:nombreInstitucion "Faculty of Sciences of Sfax"^^xsd:string ;
+    ex:origenEn ctry:tunisia ;
+    ex:rorId "https://ror.org/01thp0k37"^^xsd:string .
+
+ror:international_society_for_computational_biology a ex:Institution ;
+    ex:nombreInstitucion "International Society for Computational Biology"^^xsd:string ;
+    ex:origenEn ctry:united_states ;
+    ex:rorId "https://ror.org/01jv71z12"^^xsd:string .
+
+ror:phoenix_molecular_imaging a ex:Institution ;
+    ex:nombreInstitucion "Phoenix Molecular Imaging"^^xsd:string ;
+    ex:origenEn ctry:united_states ;
+    ex:rorId "https://ror.org/00xg0sp11"^^xsd:string .
+
+<https://grupo6.org/institution/university_of_wisconsin–madison> a ex:Institution ;
+    ex:nombreInstitucion "University of Wisconsin–Madison"^^xsd:string ;
+    ex:origenEn ctry:united_states ;
+    ex:rorId "https://ror.org/01y2jtd41"^^xsd:string .
+
+paper:10.1007_978_0_387_87458_6 a ex:Paper ;
+    ex:doi "10.1007/978-0-387-87458-6"^^xsd:string ;
+    ex:fechaPublicacion "December 2008"^^xsd:string ;
+    ex:numeroCitas 16523 ;
+    ex:paperEscritos author:__mcshane,
+        author:__radmacher,
+        author:a_mira,
+        author:a_tsiatis,
+        author:alain_f_zuur,
+        author:anatoly_a_saveliev,
+        author:c_a_mcalpine,
+        author:d_raffaelli,
+        author:elena_n_ieno,
+        author:f_carvalho,
+        author:g_j_pierce,
+        author:graham_m_smith,
+        author:i_g_priede,
+        author:j_r_rhodes,
+        author:j_samet,
+        author:k_krickeberg,
+        author:l_b_gende,
+        <https://grupo6.org/author/m_b_santos_v├ízquez>,
+        author:m_cronin,
+        author:m_gail,
+        author:m_j_eguaras,
+        author:m_j_latuhihin,
+        <https://grupo6.org/author/n_j_fern├índez>,
+        author:neil_j_walker,
+        author:p_l_luque,
+        author:r_fritz,
+        author:simon___korn,
+        author:w_wong,
+        author:wright___zhao ;
+    ex:perteneceA topic:c18903297,
+        topic:c205649164,
+        topic:c86803240 ;
+    ex:similarA paper:10.1016_j.media.2016.07.007,
+        paper:10.1109_icccnt.2014.6963059,
+        paper:10.1109_tmi.2016.2525803,
+        paper:10.1109_tmi.2017.2677499 ;
+    ex:titulo "Dynamic Regression Models for Survival Data Moy├®: Multiple Analyses in Clinical Trials: Fundamentals for Investigators Nielsen: Statistical Methods in Molecular Evolution O'Quigley: Proportional Hazards Regression Parmigiani/Garrett/Irizarry/Zeger: The Analysis of Gene Expression Data: Methods and Software Proschan/LanWittes: Statistical Monitoring of Clinical Trials: A Unified Approach Siegmund/Yakir: The Statistics of Gene Mapping"^^xsd:string .
+
+paper:10.1109_icccnt.2014.6963059 a ex:Paper ;
+    ex:doi "10.1109/ICCCNT.2014.6963059"^^xsd:string ;
+    ex:numeroCitas 49 ;
+    ex:paperEscritos author:lijuan_liu,
+        author:wanle_chi,
+        author:yanping_wang ;
+    ex:perteneceA topic:c10000559,
+        topic:c105795698,
+        topic:c108037233,
+        topic:c11413529,
+        topic:c119857082,
+        topic:c121332964,
+        topic:c127413603,
+        topic:c146978453,
+        topic:c163258240,
+        topic:c164866538,
+        topic:c186370098,
+        topic:c204323151,
+        topic:c24590314,
+        topic:c2778156585,
+        topic:c31258907,
+        topic:c33923547,
+        topic:c41008148,
+        topic:c41971633,
+        topic:c555944384,
+        topic:c62520636,
+        topic:c62611344,
+        topic:c66938386,
+        topic:c68649174,
+        topic:c761482,
+        topic:c76155785,
+        topic:c79403827,
+        topic:c8880873 ;
+    ex:similarA paper:10.1007_978_0_387_87458_6,
+        paper:10.1016_j.media.2016.07.007,
+        paper:10.1109_tmi.2016.2525803,
+        paper:10.1109_tmi.2017.2677499 ;
+    ex:titulo "Image Recognition Technology Based on Machine Learning"^^xsd:string .
+
+paper:10.1371_journal.pone.0096801 a ex:Paper ;
+    ex:doi "10.1371/journal.pone.0096801"^^xsd:string ;
+    ex:fechaPublicacion "May 6, 2014"^^xsd:string ;
+    ex:numeroCitas 1138 ;
+    ex:paperEscritos author:abhijit_de,
+        author:amirali_b_bukhari,
+        author:frency_varghese,
+        author:renu_malhotra ;
+    ex:perteneceA topic:c104317684,
+        topic:c11413529,
+        topic:c115961682,
+        topic:c125473707,
+        topic:c142724271,
+        topic:c153180895,
+        topic:c154945302,
+        topic:c158163496,
+        topic:c160633673,
+        topic:c174576160,
+        topic:c199360897,
+        topic:c204232928,
+        topic:c2777522853,
+        topic:c2909954168,
+        topic:c31972630,
+        topic:c41008148,
+        topic:c42781572,
+        topic:c4924752,
+        topic:c55493867,
+        topic:c6856738,
+        topic:c71924100,
+        topic:c86803240,
+        topic:c9417928 ;
+    ex:similarA paper:10.1038_s41598_019_48995_4,
+        paper:10.1109_access.2020.3010287,
+        paper:10.1109_rbme.2009.2034865,
+        paper:10.1155_2022_3351256 ;
+    ex:titulo "IHC Profiler: An Open Source Plugin for the Quantitative Evaluation and Automated Scoring of Immunohistochemistry Images of Human Tissue Samples"^^xsd:string .
+
+paper:10.3991_ijim.v10i3.5672 a ex:Paper ;
+    ex:doi "10.3991/ijim.v10i3.5672"^^xsd:string ;
+    ex:numeroCitas 18 ;
+    ex:paperEscritos author:a_tragha,
+        author:e_benlahmar,
+        author:k_el_guemmat,
+        author:z_rimale ;
+    ex:perteneceA topic:c110875604,
+        topic:c111919701,
+        topic:c136764020,
+        topic:c144543869,
+        topic:c186967261,
+        topic:c2522767166,
+        topic:c2779106483,
+        topic:c2779191767,
+        topic:c41008148,
+        topic:c48044578,
+        topic:c49774154,
+        topic:c60952562,
+        topic:c76155785,
+        topic:c77088390,
+        topic:c79974875 ;
+    ex:similarA paper:10.1155_2021_5631685,
+        paper:10.1155_2022_1172405,
+        paper:10.1155_2022_7796681,
+        paper:10.11591_ijere.v9i4.20766 ;
+    ex:titulo "PAPER SURVEY ON THE USE OF THE MOBILE LEARNING BASED ON MOBILE CLOUD COMPUTING Survey on the Use of the Mobile Learning Based on Mobile Cloud Computing"^^xsd:string .
+
+topic:c105795698 a ex:Topic ;
+    rdfs:label "Statistics"^^xsd:string .
+
+topic:c11413529 a ex:Topic ;
+    rdfs:label "Algorithm"^^xsd:string .
+
+topic:c121332964 a ex:Topic ;
+    rdfs:label "Physics"^^xsd:string .
+
+topic:c138885662 a ex:Topic ;
+    rdfs:label "Philosophy"^^xsd:string .
+
+topic:c177264268 a ex:Topic ;
+    rdfs:label "Set (abstract data type)"^^xsd:string .
+
+topic:c185592680 a ex:Topic ;
+    rdfs:label "Chemistry"^^xsd:string .
+
+topic:c19417346 a ex:Topic ;
+    rdfs:label "Pedagogy"^^xsd:string .
+
+topic:c2777522853 a ex:Topic ;
+    rdfs:label "Digital pathology"^^xsd:string .
+
+topic:c50644808 a ex:Topic ;
+    rdfs:label "Artificial neural network"^^xsd:string .
+
+topic:c62520636 a ex:Topic ;
+    rdfs:label "Quantum mechanics"^^xsd:string .
+
+topic:c75684735 a ex:Topic ;
+    rdfs:label "Big data"^^xsd:string .
+
+ror:biomedical_informatics_research_center_antwerp a ex:Institution ;
+    ex:nombreInstitucion "Biomedical Informatics Research Center Antwerp"^^xsd:string ;
+    ex:origenEn ctry:belgium ;
+    ex:rorId "https://ror.org/02y3cnq68"^^xsd:string .
+
+<https://grupo6.org/institution/ministerio_de_ciencia,_innovación_y_universidades> a ex:Institution ;
+    ex:nombreInstitucion "Ministerio de Ciencia, Innovación y Universidades"^^xsd:string ;
+    ex:origenEn ctry:spain ;
+    ex:rorId "https://ror.org/05r0vyz12"^^xsd:string .
+
+paper:10.1109_tmi.2016.2525803 a ex:Paper ;
+    ex:doi "10.1109/TMI.2016.2525803"^^xsd:string ;
+    ex:numeroCitas 1171 ;
+    ex:paperEscritos author:ahmed_raza,
+        author:david,
+        author:david_r_j_snead,
+        author:ian_a_cree,
+        author:korsuk,
+        author:korsuk_sirinukunwattana,
+        author:nasir_m_rajpoot,
+        author:nasir_mahmood,
+        author:shan_e_ahmed_raza,
+        author:sirinukunwattana,
+        author:snead,
+        author:yee_wah_w_tsang ;
+    ex:perteneceA topic:c121608353,
+        topic:c126322002,
+        topic:c138885662,
+        topic:c142724271,
+        topic:c153180895,
+        topic:c154945302,
+        topic:c2779808786,
+        topic:c2985322473,
+        topic:c31972630,
+        topic:c41008148,
+        topic:c41895202,
+        topic:c57742111,
+        topic:c71924100 ;
+    ex:similarA paper:10.1007_978_0_387_87458_6,
+        paper:10.1016_j.media.2016.07.007,
+        paper:10.1109_icccnt.2014.6963059,
+        paper:10.1109_tmi.2017.2677499,
+        paper:10.18637_jss.v067.i01 ;
+    ex:titulo "Locality Sensitive Deep Learning for Detection and Classification of Nuclei in Routine Colon Cancer Histology Images"^^xsd:string .
+
+paper:10.1109_tmi.2017.2677499 a ex:Paper ;
+    ex:doi "10.1109/TMI.2017.2677499"^^xsd:string ;
+    ex:fechaPublicacion "September 17, 2019"^^xsd:string ;
+    ex:numeroCitas 904 ;
+    ex:paperEscritos author:nan ;
+    ex:perteneceA topic:c115961682,
+        topic:c119857082,
+        topic:c124504099,
+        topic:c153180895,
+        topic:c154945302,
+        topic:c162324750,
+        topic:c176217482,
+        topic:c177264268,
+        topic:c191178318,
+        topic:c199360897,
+        topic:c21547014,
+        topic:c2777522853,
+        topic:c31972630,
+        topic:c41008148,
+        topic:c58489278,
+        topic:c89600930 ;
+    ex:similarA paper:10.1007_978_0_387_87458_6,
+        paper:10.1016_j.media.2016.07.007,
+        paper:10.1109_icccnt.2014.6963059,
+        paper:10.1109_tmi.2016.2525803,
+        paper:10.37074_jalt.2023.6.1.23 ;
+    ex:titulo "warwick.ac.uk/lib-publications Manuscript version: Author's Accepted Manuscript The version presented in WRAP is the author's accepted manuscript and may differ from the published version or Version of Record"^^xsd:string .
+
+paper:10.11591_ijere.v9i4.20766 a ex:Paper ;
+    ex:doi "10.11591/ijere.v9i4.20766"^^xsd:string ;
+    ex:numeroCitas 244 ;
+    ex:paperEscritos author:article_info,
+        author:khusni_syauqi,
+        author:mochamad_bruri_triyono,
+        author:sudji_munadi ;
+    ex:perteneceA topic:c105776082,
+        topic:c107457646,
+        topic:c111472728,
+        topic:c121332964,
+        topic:c138496976,
+        topic:c138885662,
+        topic:c142724271,
+        topic:c145420912,
+        topic:c15744967,
+        topic:c169760540,
+        topic:c170130773,
+        topic:c18903297,
+        topic:c19417346,
+        topic:c26760741,
+        topic:c2778755073,
+        topic:c2779134260,
+        topic:c2779530757,
+        topic:c3008058167,
+        topic:c41008148,
+        topic:c509550671,
+        topic:c524204448,
+        topic:c62520636,
+        topic:c66204764,
+        topic:c668760,
+        topic:c71924100,
+        topic:c86803240,
+        topic:c89623803 ;
+    ex:similarA paper:10.1155_2021_5631685,
+        paper:10.1155_2022_1172405,
+        paper:10.1155_2022_7796681,
+        paper:10.3991_ijim.v10i3.5672,
+        paper:10.4114_intartif.vol23iss66pp124_137 ;
+    ex:titulo "Students' perceptions toward vocational education on online learning during the COVID-19 pandemic"^^xsd:string .
+
+topic:c104317684 a ex:Topic ;
+    rdfs:label "Gene"^^xsd:string .
+
+topic:c121608353 a ex:Topic ;
+    rdfs:label "Cancer"^^xsd:string .
+
+topic:c127413603 a ex:Topic ;
+    rdfs:label "Engineering"^^xsd:string .
+
+topic:c55493867 a ex:Topic ;
+    rdfs:label "Biochemistry"^^xsd:string .
+
+ror:icahn_school_of_medicine_at_mount_sinai a ex:Institution ;
+    ex:nombreInstitucion "Icahn School of Medicine at Mount Sinai"^^xsd:string ;
+    ex:origenEn ctry:united_states ;
+    ex:rorId "https://ror.org/04a9tmd77"^^xsd:string .
+
+paper:10.1016_j.media.2016.07.007 a ex:Paper ;
+    ex:doi "10.1016/j.media.2016.07.007"^^xsd:string ;
+    ex:fechaPublicacion "2 August 2016"^^xsd:string ;
+    ex:numeroCitas 900 ;
+    ex:paperEscritos author:albert_gubern_mérida,
+        author:ard_den_heeten,
+        author:bram_van_ginneken,
+        author:clara_i_sánchez,
+        author:geert_litjens,
+        author:nico_karssemeijer,
+        author:ritse_mann,
+        author:thijs_kooi ;
+    ex:perteneceA topic:c104317684,
+        topic:c108583219,
+        topic:c112313634,
+        topic:c119857082,
+        topic:c121608353,
+        topic:c126322002,
+        topic:c127413603,
+        topic:c127716648,
+        topic:c138885662,
+        topic:c151730666,
+        topic:c153180895,
+        topic:c154945302,
+        topic:c177264268,
+        topic:c185592680,
+        topic:c188082640,
+        topic:c194789388,
+        topic:c199360897,
+        topic:c199639397,
+        topic:c21200559,
+        topic:c24326235,
+        topic:c2776401178,
+        topic:c2779343474,
+        topic:c2780472235,
+        topic:c41008148,
+        topic:c41895202,
+        topic:c50644808,
+        topic:c530470458,
+        topic:c55493867,
+        topic:c71924100,
+        topic:c81363708,
+        topic:c86803240 ;
+    ex:similarA paper:10.1007_978_0_387_87458_6,
+        paper:10.1016_j.media.2016.07.007,
+        paper:10.1109_icccnt.2014.6963059,
+        paper:10.1109_tmi.2016.2525803,
+        paper:10.1109_tmi.2017.2677499,
+        paper:10.37074_jalt.2023.6.1.23 ;
+    ex:titulo "Medical Image Analysis"^^xsd:string .
+
+paper:10.1155_2021_5631685 a ex:Paper ;
+    ex:doi "10.1155/2021/5631685"^^xsd:string ;
+    ex:fechaPublicacion "8 November 2021"^^xsd:string ;
+    ex:numeroCitas 15 ;
+    ex:paperEscritos author:hui_li,
+        author:jingnan_hu ;
+    ex:perteneceA topic:c110354214,
+        topic:c111919701,
+        topic:c120912362,
+        topic:c127413603,
+        topic:c137981799,
+        topic:c15744967,
+        topic:c1668388,
+        topic:c17744445,
+        topic:c19417346,
+        topic:c198783460,
+        topic:c199539241,
+        topic:c206729178,
+        topic:c21547014,
+        topic:c2777904410,
+        topic:c41008148,
+        topic:c47177190,
+        topic:c56739046,
+        topic:c77088390 ;
+    ex:similarA paper:10.1155_2022_1172405,
+        paper:10.1155_2022_3351256,
+        paper:10.1155_2022_7796681,
+        paper:10.11591_ijere.v9i4.20766,
+        paper:10.3991_ijim.v10i3.5672,
+        paper:10.4114_intartif.vol23iss66pp124_137 ;
+    ex:titulo "Composition and Optimization of Higher Education Management System Based on Data Mining Technology"^^xsd:string .
+
+topic:c108583219 a ex:Topic ;
+    rdfs:label "Deep learning"^^xsd:string .
+
+topic:c115961682 a ex:Topic ;
+    rdfs:label "Image (mathematics)"^^xsd:string .
+
+topic:c126322002 a ex:Topic ;
+    rdfs:label "Internal medicine"^^xsd:string .
+
+topic:c142724271 a ex:Topic ;
+    rdfs:label "Pathology"^^xsd:string .
+
+topic:c199360897 a ex:Topic ;
+    rdfs:label "Programming language"^^xsd:string .
+
+ctry:united_states a ex:Country ;
+    ex:nombrePais "United States"^^xsd:string .
+
+ror:institute_of_molecular_biology a ex:Institution ;
+    ex:nombreInstitucion "Institute of Molecular Biology"^^xsd:string ;
+    ex:origenEn ctry:germany ;
+    ex:rorId "https://ror.org/05kxtq558"^^xsd:string .
+
+ror:université_internationale_de_tunis a ex:Institution ;
+    ex:nombreInstitucion "Université Internationale de Tunis"^^xsd:string ;
+    ex:origenEn ctry:tunisia ;
+    ex:rorId "https://ror.org/03a0zrg31"^^xsd:string .
+
+paper:10.1109_cbms49503.2020.00111 a ex:Paper ;
+    ex:doi "10.1109/CBMS49503.2020.00111"^^xsd:string ;
+    ex:fechaPublicacion "27 Jun 2020"^^xsd:string ;
+    ex:numeroCitas 583 ;
+    ex:paperEscritos author:dag_johansen,
+        author:debesh_jha,
+        <https://grupo6.org/author/h├ñvard_d_johansen>,
+        author:michael_a_riegler,
+        author:norway,
+        <https://grupo6.org/author/p├ñl_halvorsen>,
+        author:simulamet ;
+    ex:perteneceA topic:c108583219,
+        topic:c115961682,
+        topic:c124504099,
+        topic:c14166107,
+        topic:c153180895,
+        topic:c154945302,
+        topic:c2524010,
+        topic:c31972630,
+        topic:c33923547,
+        topic:c41008148,
+        topic:c50644808,
+        topic:c81363708,
+        topic:c89600930 ;
+    ex:similarA paper:10.1002_hbm.10062,
+        paper:10.1038_s41591_019_0508_1,
+        paper:10.1038_s41598_019_48995_4,
+        paper:10.1109_access.2020.3010287,
+        paper:10.1109_rbme.2009.2034865,
+        paper:10.1109_tmi.2015.2476509,
+        paper:10.1155_2022_3351256 ;
+    ex:titulo "DoubleU-Net: A Deep Convolutional Neural Network for Medical Image Segmentation"^^xsd:string .
+
+paper:10.1155_2022_1172405 a ex:Paper ;
+    ex:doi "10.1155/2022/1172405"^^xsd:string ;
+    ex:fechaPublicacion "15 March 2022"^^xsd:string ;
+    ex:numeroCitas 23 ;
+    ex:paperEscritos author:daitie_zou,
+        author:zhimin_xu ;
+    ex:perteneceA topic:c104317684,
+        topic:c111919701,
+        topic:c121332964,
+        topic:c123253695,
+        topic:c127413603,
+        topic:c144024400,
+        topic:c163258240,
+        topic:c17744445,
+        topic:c185592680,
+        topic:c19417346,
+        topic:c199539241,
+        topic:c2779460620,
+        topic:c2780902518,
+        topic:c39549134,
+        topic:c41008148,
+        topic:c47177190,
+        topic:c55493867,
+        topic:c55587333,
+        topic:c56739046,
+        topic:c60671577,
+        topic:c62520636,
+        topic:c75684735,
+        topic:c93371752 ;
+    ex:similarA paper:10.1155_2021_5631685,
+        paper:10.1155_2022_3351256,
+        paper:10.1155_2022_7796681,
+        paper:10.11591_ijere.v9i4.20766,
+        paper:10.3390_e21090902,
+        paper:10.3991_ijim.v10i3.5672,
+        paper:10.4114_intartif.vol23iss66pp124_137 ;
+    ex:titulo "Big Data Analysis Research on the Deep Integration of Intangible Cultural Heritage Inheritance and Art Design Education in Colleges and Universities"^^xsd:string .
+
+paper:10.1155_2022_7796681 a ex:Paper ;
+    ex:doi "10.1155/2022/7796681"^^xsd:string ;
+    ex:fechaPublicacion "27 March 2022"^^xsd:string ;
+    ex:numeroCitas 23 ;
+    ex:paperEscritos author:jiabo_tan ;
+    ex:perteneceA topic:c111919701,
+        topic:c11413529,
+        topic:c124101348,
+        topic:c145420912,
+        topic:c15744967,
+        topic:c19417346,
+        topic:c33923547,
+        topic:c41008148,
+        topic:c47177190,
+        topic:c75684735,
+        topic:c85617194,
+        topic:c98045186 ;
+    ex:similarA paper:10.1155_2021_5631685,
+        paper:10.1155_2022_1172405,
+        paper:10.1155_2022_3351256,
+        paper:10.11591_ijere.v9i4.20766,
+        paper:10.3390_e21090902,
+        paper:10.3991_ijim.v10i3.5672,
+        paper:10.4114_intartif.vol23iss66pp124_137 ;
+    ex:titulo "Information Analysis of Advanced Mathematics Education-Adaptive Algorithm Based on Big Data"^^xsd:string .
+
+topic:c31972630 a ex:Topic ;
+    rdfs:label "Computer vision"^^xsd:string .
+
+topic:c33923547 a ex:Topic ;
+    rdfs:label "Mathematics"^^xsd:string .
+
+ror:institute_of_electrical_engineering a ex:Institution ;
+    ex:nombreInstitucion "Institute of Electrical Engineering"^^xsd:string ;
+    ex:origenEn ctry:china ;
+    ex:rorId "https://ror.org/033js6g46"^^xsd:string .
+
+ror:maine_school_of_science_and_mathematics a ex:Institution ;
+    ex:nombreInstitucion "Maine School of Science and Mathematics"^^xsd:string ;
+    ex:origenEn ctry:united_states ;
+    ex:rorId "https://ror.org/057m37z25"^^xsd:string .
+
+ror:research_institute_of_radiology a ex:Institution ;
+    ex:nombreInstitucion "Research Institute of Radiology"^^xsd:string ;
+    ex:origenEn ctry:belarus ;
+    ex:rorId "https://ror.org/0165m4813"^^xsd:string .
+
+paper:10.1038_s41591_019_0508_1 a ex:Paper ;
+    ex:doi "10.1038/s41591-019-0508-1"^^xsd:string ;
+    ex:fechaPublicacion "February 13, 2020"^^xsd:string ;
+    ex:numeroCitas 1924 ;
+    ex:paperEscritos author:jeffrey_n_chiang,
+        author:laura_jeyaseelan,
+        author:nima_tajbakhsh,
+        author:qian_li,
+        author:xiaowei_ding,
+        author:zhihao_wu ;
+    ex:perteneceA topic:c105339364,
+        topic:c108583219,
+        topic:c111919701,
+        topic:c119857082,
+        topic:c121608353,
+        topic:c126322002,
+        topic:c142724271,
+        topic:c154945302,
+        topic:c19527891,
+        topic:c205649164,
+        topic:c2778755073,
+        topic:c2779974597,
+        topic:c2780192828,
+        topic:c41008148,
+        topic:c512399662,
+        topic:c534262118,
+        topic:c58640448,
+        topic:c71924100 ;
+    ex:similarA paper:10.1002_hbm.10062,
+        paper:10.1038_s41598_019_48995_4,
+        paper:10.1093_jnci_djy222,
+        paper:10.1109_access.2020.3010287,
+        paper:10.1109_cbms49503.2020.00111,
+        paper:10.1109_rbme.2009.2034865,
+        paper:10.1109_tmi.2015.2476509,
+        paper:10.1155_2022_3351256 ;
+    ex:titulo "Embracing Imperfect Datasets: A Review of Deep Learning Solutions for Medical Image Segmentation"^^xsd:string .
+
+paper:10.1109_access.2020.3010287 a ex:Paper ;
+    ex:doi "10.1109/ACCESS.2020.3010287"^^xsd:string ;
+    ex:numeroCitas 1678 ;
+    ex:paperEscritos author:a_l_emadi,
+        author:amith_khandakar,
+        author:mohammad_tariqul_islam,
+        author:muhammad_abdul_kadir,
+        author:muhammad_e_h_chowdhur,
+        author:muhammad_e_h_chowdhury,
+        author:salman_khan,
+        author:tawsifur_rahman ;
+    ex:perteneceA topic:c116675565,
+        topic:c126322002,
+        topic:c159047783,
+        topic:c2777914695,
+        topic:c2778158872,
+        topic:c2779134260,
+        topic:c3006700255,
+        topic:c3007834351,
+        topic:c3008058167,
+        topic:c41008148,
+        topic:c524204448,
+        topic:c71924100 ;
+    ex:similarA paper:10.1038_s41591_019_0508_1,
+        paper:10.1038_s41598_019_48995_4,
+        paper:10.1109_cbms49503.2020.00111,
+        paper:10.1109_rbme.2009.2034865,
+        paper:10.1109_tmi.2015.2476509,
+        paper:10.1155_2022_3351256,
+        paper:10.1371_journal.pone.0096801,
+        paper:10.4114_intartif.vol23iss66pp124_137 ;
+    ex:titulo "Can AI Help in Screening Viral and COVID-19 Pneumonia?"^^xsd:string .
+
+paper:10.1109_rbme.2009.2034865 a ex:Paper ;
+    ex:doi "10.1109/RBME.2009.2034865"^^xsd:string ;
+    ex:fechaPublicacion "December 09, 2009"^^xsd:string ;
+    ex:numeroCitas 1827 ;
+    ex:paperEscritos author:ali_can,
+        author:laura_e_boucheron,
+        author:methodological_review,
+        author:metin_n_gurcan,
+        author:nasir_m_rajpoot ;
+    ex:perteneceA topic:c104317684,
+        topic:c112313634,
+        topic:c112416745,
+        topic:c115961682,
+        topic:c127413603,
+        topic:c127716648,
+        topic:c142724271,
+        topic:c153180895,
+        topic:c154945302,
+        topic:c185592680,
+        topic:c188082640,
+        topic:c194789388,
+        topic:c199639397,
+        topic:c2777522853,
+        topic:c2779549770,
+        topic:c31601959,
+        topic:c31972630,
+        topic:c41008148,
+        topic:c42781572,
+        topic:c544855455,
+        topic:c55493867,
+        topic:c71924100,
+        topic:c9417928 ;
+    ex:similarA paper:10.1038_s41591_019_0508_1,
+        paper:10.1038_s41598_019_48995_4,
+        paper:10.1093_jnci_djy222,
+        paper:10.1109_access.2020.3010287,
+        paper:10.1109_cbms49503.2020.00111,
+        paper:10.1109_tmi.2015.2476509,
+        paper:10.1155_2022_3351256,
+        paper:10.1371_journal.pone.0096801 ;
+    ex:titulo "Histopathological Image Analysis: A Review"^^xsd:string .
+
+paper:10.1109_tmi.2015.2476509 a ex:Paper ;
+    ex:doi "10.1109/TMI.2015.2476509"^^xsd:string ;
+    ex:fechaPublicacion "4 Jun 2017"^^xsd:string ;
+    ex:numeroCitas 266 ;
+    ex:paperEscritos author:adiyoso_setio,
+        author:arnaud_arindra,
+        author:babak_ehteshami_bejnordi,
+        author:bram_van_ginneken,
+        author:francesco_ciompi,
+        author:geert_litjens,
+        author:jeroen_a_w_m_van_der_laak,
+        author:mohsen_ghafoorian,
+        author:thijs_kooi ;
+    ex:perteneceA topic:c111919701,
+        topic:c126537357,
+        topic:c142724271,
+        topic:c153180895,
+        topic:c154945302,
+        topic:c160633673,
+        topic:c188087704,
+        topic:c2777522853,
+        topic:c2781294515,
+        topic:c31972630,
+        topic:c41008148,
+        topic:c71924100,
+        topic:c74864618 ;
+    ex:similarA paper:10.1002_hbm.10062,
+        paper:10.1038_s41591_019_0508_1,
+        paper:10.1038_s41598_019_48995_4,
+        paper:10.1109_access.2020.3010287,
+        paper:10.1109_cbms49503.2020.00111,
+        paper:10.1109_rbme.2009.2034865,
+        paper:10.1155_2022_3351256,
+        paper:10.4114_intartif.vol23iss66pp124_137 ;
+    ex:titulo "A Survey on Deep Learning in Medical Image Analysis"^^xsd:string .
+
+paper:10.4114_intartif.vol23iss66pp124_137 a ex:Paper ;
+    ex:doi "10.4114/intartif.vol23iss66pp124-137"^^xsd:string ;
+    ex:fechaPublicacion "2017 Oct 26"^^xsd:string ;
+    ex:numeroCitas 27 ;
+    ex:paperEscritos <https://grupo6.org/author/]_savitha>,
+        author:juxiao_zhang,
+        author:mengyang_xu,
+        author:vivekananda_gn,
+        author:xiaoyan_jiang,
+        author:xue_han,
+        author:zhongshan_chen,
+        author:zuojin_hu ;
+    ex:perteneceA topic:c108583219,
+        topic:c119857082,
+        topic:c154945302,
+        topic:c2522767166,
+        topic:c26517878,
+        topic:c2777648619,
+        topic:c38652104,
+        topic:c41008148,
+        topic:c50644808,
+        topic:c79158427,
+        topic:c83209312 ;
+    ex:similarA paper:10.1038_s41598_019_48995_4,
+        paper:10.1109_access.2020.3010287,
+        paper:10.1109_tmi.2015.2476509,
+        paper:10.1155_2021_5631685,
+        paper:10.1155_2022_1172405,
+        paper:10.1155_2022_3351256,
+        paper:10.1155_2022_7796681,
+        paper:10.11591_ijere.v9i4.20766 ;
+    ex:titulo "Education 4.0 using artificial intelligence for students performance analysis"^^xsd:string .
+
+topic:c111919701 a ex:Topic ;
+    rdfs:label "Operating system"^^xsd:string .
+
+topic:c119857082 a ex:Topic ;
+    rdfs:label "Machine learning"^^xsd:string .
+
+topic:c86803240 a ex:Topic ;
+    rdfs:label "Biology"^^xsd:string .
+
+ror:radboud_university_nijmegen a ex:Institution ;
+    ex:nombreInstitucion "Radboud University Nijmegen"^^xsd:string ;
+    ex:origenEn ctry:the_netherlands ;
+    ex:rorId "https://ror.org/016xsfp80"^^xsd:string .
+
+paper:10.1038_s41598_019_48995_4 a ex:Paper ;
+    ex:doi "10.1038/s41598-019-48995-4"^^xsd:string ;
+    ex:numeroCitas 848 ;
+    ex:paperEscritos author:eugene_fluder,
+        author:joseph_h_rothstein,
+        author:laurie_r_margolies,
+        author:li_shen,
+        author:russell_mcbride,
+        author:weiva_sieh ;
+    ex:perteneceA topic:c108583219,
+        topic:c119857082,
+        topic:c121608353,
+        topic:c126322002,
+        topic:c153180895,
+        topic:c154945302,
+        topic:c169903167,
+        topic:c2778491387,
+        topic:c2780472235,
+        topic:c2781281974,
+        topic:c41008148,
+        topic:c51632099,
+        topic:c530470458,
+        topic:c71924100,
+        topic:c95623464 ;
+    ex:similarA paper:10.1038_s41591_019_0508_1,
+        paper:10.1093_jnci_djy222,
+        paper:10.1109_access.2020.3010287,
+        paper:10.1109_cbms49503.2020.00111,
+        paper:10.1109_rbme.2009.2034865,
+        paper:10.1109_tmi.2015.2476509,
+        paper:10.1155_2022_3351256,
+        paper:10.1371_journal.pone.0096801,
+        paper:10.4114_intartif.vol23iss66pp124_137 ;
+    ex:titulo "Deep Learning to improve Breast cancer Detection on Screening Mammography"^^xsd:string .
+
+topic:c153180895 a ex:Topic ;
+    rdfs:label "Pattern recognition (psychology)"^^xsd:string .
+
+ror:national_institute_on_population_medical_genetics a ex:Institution ;
+    ex:nombreInstitucion "National Institute on Population Medical Genetics"^^xsd:string ;
+    ex:origenEn ctry:brazil ;
+    ex:rorId "https://ror.org/02x6jsy35"^^xsd:string .
+
+paper:10.1155_2022_3351256 a ex:Paper ;
+    ex:doi "10.1155/2022/3351256"^^xsd:string ;
+    ex:fechaPublicacion "19 July 2022"^^xsd:string ;
+    ex:numeroCitas 39 ;
+    ex:paperEscritos author:qing_lv,
+        author:suzhen_zhang,
+        author:yuechun_wang ;
+    ex:perteneceA topic:c108583219,
+        topic:c111919701,
+        topic:c115961682,
+        topic:c119857082,
+        topic:c138885662,
+        topic:c153180895,
+        topic:c154945302,
+        topic:c2776401178,
+        topic:c41008148,
+        topic:c41895202,
+        topic:c45347329,
+        topic:c50644808,
+        topic:c52622490,
+        topic:c75294576,
+        topic:c81363708,
+        topic:c98045186 ;
+    ex:similarA paper:10.1038_s41591_019_0508_1,
+        paper:10.1038_s41598_019_48995_4,
+        paper:10.1109_access.2020.3010287,
+        paper:10.1109_cbms49503.2020.00111,
+        paper:10.1109_rbme.2009.2034865,
+        paper:10.1109_tmi.2015.2476509,
+        paper:10.1155_2021_5631685,
+        paper:10.1155_2022_1172405,
+        paper:10.1155_2022_7796681,
+        paper:10.1371_journal.pone.0096801,
+        paper:10.4114_intartif.vol23iss66pp124_137 ;
+    ex:titulo "Deep Learning Model of Image Classification Using Machine Learning"^^xsd:string .
+
+topic:c71924100 a ex:Topic ;
+    rdfs:label "Medicine"^^xsd:string .
+
+ror:college_of_the_mainland a ex:Institution ;
+    ex:nombreInstitucion "College of the Mainland"^^xsd:string ;
+    ex:origenEn ctry:united_states ;
+    ex:rorId "https://ror.org/04z1nmb83"^^xsd:string .
+
+topic:c154945302 a ex:Topic ;
+    rdfs:label "Artificial intelligence"^^xsd:string .
+
+ror:korea_electronics_technology_institute a ex:Institution ;
+    ex:nombreInstitucion "Korea Electronics Technology Institute"^^xsd:string ;
+    ex:origenEn ctry:south_korea ;
+    ex:rorId "https://ror.org/039k6f508"^^xsd:string .
+
+topic:c41008148 a ex:Topic ;
+    rdfs:label "Computer science"^^xsd:string .
+
+ror:trade_extensions_\(sweden\) a ex:Institution ;
+    ex:nombreInstitucion "Trade Extensions (Sweden)"^^xsd:string ;
+    ex:origenEn ctry:sweden ;
+    ex:rorId "https://ror.org/02aj8hb75"^^xsd:string .
+
+ror:google_\(ireland\) a ex:Institution ;
+    ex:nombreInstitucion "Google (Ireland)"^^xsd:string ;
+    ex:origenEn ctry:ireland ;
+    ex:rorId "https://ror.org/03nmefy27"^^xsd:string .
+
